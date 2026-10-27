@@ -1,0 +1,18 @@
+[
+  {
+    "source": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_3.json",
+    "backup": "E:\\Downloads\\Mods\\DDDA2\\CustomClassAndSkills\\backups\\cancel-fix\\new_skill_3.json",
+    "prepared": "E:\\Downloads\\Mods\\DDDA2\\CustomClassAndSkills\\prepared\\cancel-fix\\new_skill_3.json",
+    "family": "salamander",
+    "original_sha256": "A07EFD90DE5B4C6CEB5EB03676B5676D7D34E7B05A3A58EEA99B6AF5E927F107",
+    "prepared_sha256": "0D5923C309B6A940BB9F4946180FCDAFE46C29F48003152CA26520F8F20884FF"
+  },
+  {
+    "source": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_4.json",
+    "backup": "E:\\Downloads\\Mods\\DDDA2\\CustomClassAndSkills\\backups\\cancel-fix\\new_skill_4.json",
+    "prepared": "E:\\Downloads\\Mods\\DDDA2\\CustomClassAndSkills\\prepared\\cancel-fix\\new_skill_4.json",
+    "family": "levin",
+    "original_sha256": "396C0538B70E1DB16F204389D2268539E967B4568A5926818AA536A3E5745349",
+    "prepared_sha256": "9870A3FA2C1FAC729EA13A82120F6CB8D5786F1EAC879764C360A8FBCBA5A902"
+  }
+]

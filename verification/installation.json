@@ -1,0 +1,13 @@
+{
+  "installed": true,
+  "changed_files": [
+    {
+      "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_3.json",
+      "before": "10878E3585819FA4C3CB698FF55A2F3E9EB7CC1C846AAC5F6231A5805DFC8070",
+      "after": "0D4BCD9AAAF246BB0D1BE73178AE1F16ABC31542BFD4193F3A29219ACC2F2CCE"
+    }
+  ],
+  "checks_passed": 19,
+  "in_game_tested": false,
+  "backup": "E:\\Downloads\\Mods\\DDDA2\\CustomClassAndSkills\\backups\\new_skill_3.original.json"
+}

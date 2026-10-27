@@ -1,0 +1,20 @@
+PASS: Prepared document passes VSB schema without warnings
+PASS: Identity, availability, conditions and costs are unchanged
+PASS: Shell settings unchanged except timeline frame
+PASS: Prepare action unchanged
+PASS: All flow targets resolve
+PASS: Original reproduces shell before branch, while still preparing
+PASS: Latest original self-branch n3 reproduces endless-loop protection
+PASS: First-read n4 target reproduces missing-node warning
+PASS: Original false branch repeats shell after jumping backwards
+PASS: in_action checks both layers even when layer is 0
+PASS: Prepare never fires the shell
+PASS: Ready never fires the shell
+PASS: First observed Cast tick fires exactly one shell
+PASS: Cast completes without repeated shells or executor warnings
+PASS: 600-frame timeout skips shell and finishes
+PASS: Cancelled preparation returning to idle never fires shell
+PASS: Hit interruption ends waiting without a shell
+PASS: At 120 Hz the gate advances by half a timeline frame
+PASS: At 120 Hz the shell follows within one 60 Hz timeline frame
+Completed 19 assertions. Game FSM, input and visual behavior require an in-game test.

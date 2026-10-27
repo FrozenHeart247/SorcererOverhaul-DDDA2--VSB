@@ -1,0 +1,35 @@
+PASS: Level 1 validates without warnings
+PASS: Level 2 validates without warnings
+PASS: Metadata, identities and both levels are unchanged
+PASS: Prepare action is unchanged
+PASS: Wight remains at frame 70 with all original settings
+PASS: Thunder Rain settings unchanged except frame
+PASS: Timeout target resolves to the end node
+PASS: Original reproduces Thunder Rain while still preparing
+PASS: Wight fires once at 70 (Cast at 140, level 1)
+PASS: Thunder Rain stays blocked through Prepare/Ready
+PASS: Thunder Rain follows the actual Cast tick
+PASS: No repeated shells or executor warnings
+PASS: Wight fires once at 70 (Cast at 140, level 2)
+PASS: Thunder Rain stays blocked through Prepare/Ready
+PASS: Thunder Rain follows the actual Cast tick
+PASS: No repeated shells or executor warnings
+PASS: Wight fires once at 70 (Cast at 216, level 1)
+PASS: Thunder Rain stays blocked through Prepare/Ready
+PASS: Thunder Rain follows the actual Cast tick
+PASS: No repeated shells or executor warnings
+PASS: Wight fires once at 70 (Cast at 216, level 2)
+PASS: Thunder Rain stays blocked through Prepare/Ready
+PASS: Thunder Rain follows the actual Cast tick
+PASS: No repeated shells or executor warnings
+PASS: Wight fires once at 70 (Cast at 400, level 1)
+PASS: Thunder Rain stays blocked through Prepare/Ready
+PASS: Thunder Rain follows the actual Cast tick
+PASS: No repeated shells or executor warnings
+PASS: Wight fires once at 70 (Cast at 400, level 2)
+PASS: Thunder Rain stays blocked through Prepare/Ready
+PASS: Thunder Rain follows the actual Cast tick
+PASS: No repeated shells or executor warnings
+PASS: Timeout after 70+600 frames skips Thunder Rain
+PASS: A hit during the wait prevents Thunder Rain
+Completed 34 checks; game animation and effects still require an in-game test.

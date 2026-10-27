@@ -1,0 +1,127 @@
+{
+  "availability": {
+    "list_under": "Job06",
+    "mode": "all",
+    "unlock_by": "vanilla"
+  },
+  "id": "new_skill_4",
+  "kind": "custom",
+  "levels": {
+    "1": {
+      "dcp_cost": 0,
+      "unlock_rank": 1
+    },
+    "2": {
+      "dcp_cost": 0,
+      "patch": [
+        {
+          "op": "set",
+          "path": "/presentation/name/en",
+          "value": "Lightning Burst"
+        }
+      ],
+      "unlock_rank": 3
+    }
+  },
+  "presentation": {
+    "icon": 0,
+    "name": {
+      "en": "Lightning Strike"
+    },
+    "sort_hint": 100
+  },
+  "schema_version": 1,
+  "timeline": [
+    {
+      "action": "JobMagicUser_PrepareLevin",
+      "air_layer": 0,
+      "alt_layer": 0,
+      "enabled": true,
+      "frame": 0,
+      "hold": false,
+      "id": "n1",
+      "layer": 1,
+      "mirror": false,
+      "speed": 1.0,
+      "type": "action"
+    },
+    {
+      "attack_rate": 1,
+      "cast": {
+        "aim_pitch": true,
+        "attach": false,
+        "face": "owner",
+        "follow": "always",
+        "follow_children": true,
+        "follow_rotation": true,
+        "joint": "Head_0",
+        "keep_aim": false,
+        "lock_target": "enemy",
+        "mode": "owner",
+        "offset": [
+          -1.0,
+          1.4700000286102295,
+          0.0
+        ]
+      },
+      "cosmetic": false,
+      "element": "Thunder",
+      "element2": "None",
+      "element2_share": 50,
+      "enabled": true,
+      "frame": 70,
+      "ground": "default",
+      "id": "n2",
+      "keep_alive": false,
+      "mute": false,
+      "scale": 1.0,
+      "shell": "AppSystem/ch/ch227/001/UserData/ch227001DarkBulletSLightVerShellParamData.user",
+      "shell_id": 15,
+      "speed": 1,
+      "type": "shell"
+    },
+    {
+      "condition": {
+        "arg": "JobMagicUser_CastLevin",
+        "from": "character",
+        "layer": 0,
+        "negate": false,
+        "range": 10,
+        "state": "in_action"
+      },
+      "else_target": "n5",
+      "enabled": true,
+      "frame": 70,
+      "id": "n3",
+      "op": "wait_until",
+      "type": "flow",
+      "window": 600
+    },
+    {
+      "attack_rate": 1,
+      "cosmetic": false,
+      "element": "None",
+      "element2": "None",
+      "element2_share": 50,
+      "enabled": true,
+      "frame": 71,
+      "ground": "default",
+      "id": "n4",
+      "keep_alive": false,
+      "mute": false,
+      "scale": 1,
+      "shell": "AppSystem/ch/ch253/001/UserData/ch253001LevinSpellShellParamData.user",
+      "shell_id": 11,
+      "speed": 1,
+      "type": "shell"
+    },
+    {
+      "enabled": true,
+      "frame": 72,
+      "id": "n5",
+      "op": "end",
+      "type": "flow"
+    }
+  ],
+  "uuid": "3c0b8528-94e6-431a-bd46-a2be7e2c6501"
+}

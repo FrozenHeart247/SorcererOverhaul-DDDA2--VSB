@@ -1,0 +1,45 @@
+PASS: levin: only per-skill scripts added, timeline and shell settings preserved
+PASS: levin: level 1 schema and level patch valid
+PASS: levin: level 2 schema and level patch valid
+PASS: levin: old JSON reproduces lock after native cancel
+PASS: levin: early explicit cancel releases executor immediately
+PASS: levin: same spell can immediately start again, level 1
+PASS: levin: early explicit cancel releases executor immediately
+PASS: levin: same spell can immediately start again, level 2
+PASS: levin: short action gap gets a grace interval
+PASS: levin: idle cancellation releases executor within 150ms without final shell
+PASS: levin: retry after idle cancellation is accepted
+PASS: levin: Wight still fires at frame 70
+PASS: levin: normal Prepare / gap / Ready / SpellStock chain remains active
+PASS: levin: normal Cast still fires correct shells exactly once, level 1
+PASS: levin: Wight still fires at frame 70
+PASS: levin: normal Prepare / gap / Ready / SpellStock chain remains active
+PASS: levin: normal Cast still fires correct shells exactly once, level 2
+PASS: levin: asynchronous startup and old cancel action do not cancel a fresh cast
+PASS: levin: never-entered preparation exits without a long timeout
+PASS: levin: missing action data is not treated as cancellation
+PASS: levin: state query recovery preserves the spell
+PASS: levin: standard hit interruption remains intact
+PASS: levin: normal 600-frame wait timeout still skips the final shell
+PASS: salamander: only per-skill scripts added, timeline and shell settings preserved
+PASS: salamander: level 1 schema and level patch valid
+PASS: salamander: level 2 schema and level patch valid
+PASS: salamander: old JSON reproduces lock after native cancel
+PASS: salamander: early explicit cancel releases executor immediately
+PASS: salamander: same spell can immediately start again, level 1
+PASS: salamander: early explicit cancel releases executor immediately
+PASS: salamander: same spell can immediately start again, level 2
+PASS: salamander: short action gap gets a grace interval
+PASS: salamander: idle cancellation releases executor within 150ms without final shell
+PASS: salamander: retry after idle cancellation is accepted
+PASS: salamander: normal Prepare / gap / Ready / SpellStock chain remains active
+PASS: salamander: normal Cast still fires correct shells exactly once, level 1
+PASS: salamander: normal Prepare / gap / Ready / SpellStock chain remains active
+PASS: salamander: normal Cast still fires correct shells exactly once, level 2
+PASS: salamander: asynchronous startup and old cancel action do not cancel a fresh cast
+PASS: salamander: never-entered preparation exits without a long timeout
+PASS: salamander: missing action data is not treated as cancellation
+PASS: salamander: state query recovery preserves the spell
+PASS: salamander: standard hit interruption remains intact
+PASS: salamander: normal 600-frame wait timeout still skips the final shell
+Completed 44 assertions. Native cancel action and final behavior still require an in-game check.

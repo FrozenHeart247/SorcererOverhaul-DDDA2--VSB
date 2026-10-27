@@ -1,0 +1,81 @@
+{
+    "availability": {
+        "list_under": "Job06",
+        "mode": "all",
+        "unlock_by": "vanilla"
+    },
+    "conditions": {
+        "min_stamina": 1,
+        "not_carrying": true,
+        "not_restricted": true,
+        "weapon_drawn": true
+    },
+    "id": "new_skill_3",
+    "kind": "custom",
+    "levels": {
+        "1": {
+            "dcp_cost": 300,
+            "unlock_rank": 1
+        }
+    },
+    "presentation": {
+        "icon": 0,
+        "name": {
+            "en": "Improved Salamander"
+        },
+        "sort_hint": 100
+    },
+    "schema_version": 1,
+    "timeline": [
+        {
+            "action": "Job06_PrepareSalamander",
+            "air_layer": 0,
+            "alt_layer": 0,
+            "enabled": true,
+            "frame": 0,
+            "hold": false,
+            "id": "n2",
+            "layer": 1,
+            "mirror": false,
+            "speed": 1.0,
+            "type": "action"
+        },
+        {
+            "condition": {
+                "arg": "Job06_PrepareSalamander",
+                "from": "character",
+                "layer": 0,
+                "negate": false,
+                "range": 10,
+                "state": "in_action"
+            },
+            "else_target": "n1",
+            "enabled": true,
+            "frame": 73,
+            "id": "n3",
+            "op": "branch",
+            "target": "n3",
+            "type": "flow",
+            "window": 1
+        },
+        {
+            "attack_rate": 1,
+            "cosmetic": false,
+            "element": "None",
+            "element2": "None",
+            "element2_share": 50,
+            "enabled": true,
+            "frame": 68,
+            "ground": "default",
+            "id": "n1",
+            "keep_alive": false,
+            "mute": false,
+            "scale": 1,
+            "shell": "AppSystem/ch/ch253/001/UserData/ch253001FramePillarSSpellShellParamData.user",
+            "shell_id": 1,
+            "speed": 1,
+            "type": "shell"
+        }
+    ],
+    "uuid": "638739d8-bcc0-46f6-929d-3a67a9732198"
+}

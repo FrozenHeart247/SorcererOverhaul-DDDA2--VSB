@@ -1,0 +1,90 @@
+[
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\pack.json",
+    "sha256": "4C63D248641936231A95BCC86C11AE76AFE2E6774E94A7CDA9886E7D1A0DEEB9"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_2.json",
+    "sha256": "E61C4ACFB82D6E95157A39E6A6D1B8BCD69B26D00C4298A839C9A6EB7D077527"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_3_copy.json",
+    "sha256": "B9BB0E5A104CF76599ED2E359A7A16F27CF16669BBF99DCB827A228DD3D5F26A"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_3.json",
+    "sha256": "A07EFD90DE5B4C6CEB5EB03676B5676D7D34E7B05A3A58EEA99B6AF5E927F107"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_4.json",
+    "sha256": "396C0538B70E1DB16F204389D2268539E967B4568A5926818AA536A3E5745349"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_copy_copy_copy.json",
+    "sha256": "B9BB0E5A104CF76599ED2E359A7A16F27CF16669BBF99DCB827A228DD3D5F26A"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_copy_copy.json",
+    "sha256": "4250A53B64F085A197308B8723897DF549AD207605E248D03825F1283B8BFD23"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_copy.json",
+    "sha256": "B9BB0E5A104CF76599ED2E359A7A16F27CF16669BBF99DCB827A228DD3D5F26A"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill.json",
+    "sha256": "BC4E6934DFFA1069FF7ED8BFFE8F51302481FD43E8A6A6E3482556CED2E2868C"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\recorded_skill.json",
+    "sha256": "B9BB0E5A104CF76599ED2E359A7A16F27CF16669BBF99DCB827A228DD3D5F26A"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\my_skills\\pack.json",
+    "sha256": "5045445F0A246142EEDE9EBE38722CB73F1362A2F7343714C4A01B4F61030D8D"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\my_skills\\skills\\new_skill_3_copy_2.json",
+    "sha256": "DFEB4785DD20658A4C1CD1E5809CF390BB8FEB39168CDA8A6BEECDF7BBF9F31A"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\my_skills\\skills\\new_skill_3_copy.json",
+    "sha256": "6F5AC6E32D76F98B0E4C5031361C67F93A1B9027197CD27192426473D6143A6F"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\my_skills\\skills\\new_skill_copy.json",
+    "sha256": "D66194CF53B57AFFA7D92CE25A9A42D545D3565D388987E18219BC43B343FDCC"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\my_skills\\skills\\new_skill.json",
+    "sha256": "B9BB0E5A104CF76599ED2E359A7A16F27CF16669BBF99DCB827A228DD3D5F26A"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\my_tests\\new_skill_3.json",
+    "sha256": "0D4BCD9AAAF246BB0D1BE73178AE1F16ABC31542BFD4193F3A29219ACC2F2CCE"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\vsb_examples\\pack.json",
+    "sha256": "9FFB0E64D7FA51B2C436243C34C9F2367F188B48AC3CFA226C62A01FC305A032"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\vsb_examples\\skills\\quick_hop.json",
+    "sha256": "40BE88C3137425BE13DE31F961C512F5EE5C7D67AF0C3E817692F34B0910E850"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\vsb_examples_ember_knight\\pack.json",
+    "sha256": "913C338DC4DA5359203DAC2268D96ADC030B5521BC532F0A7E943E0593EC9C57"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\vsb_examples_ember_knight\\skills\\ember_bolt.json",
+    "sha256": "069C132261A88C88C8D88D75257EF2C8C2E37BB0A04D4780BBCFE192CC617AD0"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\vsb_examples_ember_knight\\skills\\ember_guard.json",
+    "sha256": "9DE064F2CC44C3476F9E23FE89569FA76D25B1F7E46815A9DDFF484F28756AF1"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\vsb_examples_ember_knight\\skills\\ember_lunge.json",
+    "sha256": "155BB1BA5139FCC33071D74BAD78E0B092A51E7172563A8EB7029AB67F00AABF"
+  }
+]

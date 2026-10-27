@@ -1,0 +1,74 @@
+[
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\pack.json",
+    "sha256": "4C63D248641936231A95BCC86C11AE76AFE2E6774E94A7CDA9886E7D1A0DEEB9"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_2.json",
+    "sha256": "9A8A54DF8D711B55C25F48592C6E271066927DCCCB927897A67F1943D2B91D07"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_3_copy.json",
+    "sha256": "6F5AC6E32D76F98B0E4C5031361C67F93A1B9027197CD27192426473D6143A6F"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_3.json",
+    "sha256": "10878E3585819FA4C3CB698FF55A2F3E9EB7CC1C846AAC5F6231A5805DFC8070"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_copy_copy_copy.json",
+    "sha256": "EF7F27E4D59B3B18926D12EAA3FED315EE429C12575A9AF1F44F26AEB1A8E75B"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_copy_copy.json",
+    "sha256": "EC894CCCB62AB9B32A86C6B4AAA0536E4C1C056DAD61BD1BBD1E8EDB2AC39F94"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_copy.json",
+    "sha256": "7A9D5AA29A5099A15FCC85B077C871CC8D13200B80D51EA4F40F3C384875631A"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill.json",
+    "sha256": "BC4E6934DFFA1069FF7ED8BFFE8F51302481FD43E8A6A6E3482556CED2E2868C"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\recorded_skill.json",
+    "sha256": "96BD4C8BEC4398F26E120CE096A362343655E9C532F5F5FFE55C86873D74EB85"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\my_skills\\pack.json",
+    "sha256": "5045445F0A246142EEDE9EBE38722CB73F1362A2F7343714C4A01B4F61030D8D"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\my_skills\\skills\\new_skill_3_copy.json",
+    "sha256": "560C676DAC0E0DA23701F8EB86C860E218EC9CD9E7CD62C91672F010B2CCC156"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\my_skills\\skills\\new_skill.json",
+    "sha256": "B9BB0E5A104CF76599ED2E359A7A16F27CF16669BBF99DCB827A228DD3D5F26A"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\vsb_examples\\pack.json",
+    "sha256": "9FFB0E64D7FA51B2C436243C34C9F2367F188B48AC3CFA226C62A01FC305A032"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\vsb_examples\\skills\\quick_hop.json",
+    "sha256": "40BE88C3137425BE13DE31F961C512F5EE5C7D67AF0C3E817692F34B0910E850"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\vsb_examples_ember_knight\\pack.json",
+    "sha256": "913C338DC4DA5359203DAC2268D96ADC030B5521BC532F0A7E943E0593EC9C57"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\vsb_examples_ember_knight\\skills\\ember_bolt.json",
+    "sha256": "069C132261A88C88C8D88D75257EF2C8C2E37BB0A04D4780BBCFE192CC617AD0"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\vsb_examples_ember_knight\\skills\\ember_guard.json",
+    "sha256": "9DE064F2CC44C3476F9E23FE89569FA76D25B1F7E46815A9DDFF484F28756AF1"
+  },
+  {
+    "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\vsb_examples_ember_knight\\skills\\ember_lunge.json",
+    "sha256": "155BB1BA5139FCC33071D74BAD78E0B092A51E7172563A8EB7029AB67F00AABF"
+  }
+]

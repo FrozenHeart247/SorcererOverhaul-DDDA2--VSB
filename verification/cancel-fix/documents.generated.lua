@@ -1,0 +1,63 @@
+return {[ [=[prepared]=] ]={[ [=[salamander]=] ]={[ [=[availability]=] ]={[ [=[list_under]=] ]=[=[Job06]=],[ [=[mode]=] ]=[=[all]=],[ [=[unlock_by]=] ]=[=[vanilla]=]},[ [=[conditions]=] ]={[ [=[min_stamina]=] ]=1,[ [=[not_carrying]=] ]=true,[ [=[not_restricted]=] ]=true,[ [=[weapon_drawn]=] ]=true},[ [=[id]=] ]=[=[new_skill_3]=],[ [=[kind]=] ]=[=[custom]=],[ [=[levels]=] ]={[ [=[1]=] ]={[ [=[dcp_cost]=] ]=0,[ [=[unlock_rank]=] ]=1},[ [=[2]=] ]={[ [=[dcp_cost]=] ]=0,[ [=[patch]=] ]={{[ [=[op]=] ]=[=[set]=],[ [=[path]=] ]=[=[/presentation/name/en]=],[ [=[value]=] ]=[=[Molten Ground]=]}},[ [=[unlock_rank]=] ]=3}},[ [=[presentation]=] ]={[ [=[icon]=] ]=0,[ [=[name]=] ]={[ [=[en]=] ]=[=[Fire Ground]=]},[ [=[sort_hint]=] ]=100},[ [=[schema_version]=] ]=1,[ [=[timeline]=] ]={{[ [=[action]=] ]=[=[Job06_PrepareSalamander]=],[ [=[air_layer]=] ]=0,[ [=[alt_layer]=] ]=0,[ [=[enabled]=] ]=true,[ [=[frame]=] ]=0,[ [=[hold]=] ]=false,[ [=[id]=] ]=[=[n2]=],[ [=[layer]=] ]=1,[ [=[mirror]=] ]=false,[ [=[speed]=] ]=1,[ [=[type]=] ]=[=[action]=]},{[ [=[condition]=] ]={[ [=[arg]=] ]=[=[Job06_CastSalamander]=],[ [=[from]=] ]=[=[character]=],[ [=[layer]=] ]=0,[ [=[negate]=] ]=false,[ [=[range]=] ]=10,[ [=[state]=] ]=[=[in_action]=]},[ [=[else_target]=] ]=[=[n_end]=],[ [=[enabled]=] ]=true,[ [=[frame]=] ]=0,[ [=[id]=] ]=[=[n3]=],[ [=[op]=] ]=[=[wait_until]=],[ [=[type]=] ]=[=[flow]=],[ [=[window]=] ]=600},{[ [=[attack_rate]=] ]=1,[ [=[cast]=] ]={[ [=[aim_pitch]=] ]=false,[ [=[attach]=] ]=false,[ [=[face]=] ]=[=[owner]=],[ [=[follow]=] ]=[=[none]=],[ [=[follow_children]=] ]=false,[ [=[follow_rotation]=] ]=true,[ [=[keep_aim]=] ]=false,[ [=[lock_target]=] ]=[=[enemy]=],[ [=[mode]=] ]=[=[owner]=],[ [=[offset]=] ]={0,0,10}},[ [=[cosmetic]=] ]=false,[ [=[element]=] ]=[=[None]=],[ [=[element2]=] ]=[=[None]=],[ [=[element2_share]=] ]=50,[ [=[enabled]=] ]=true,[ [=[frame]=] ]=1,[ [=[ground]=] ]=[=[default]=],[ [=[id]=] ]=[=[n1]=],[ [=[keep_alive]=] ]=false,[ [=[mute]=] ]=false,[ [=[scale]=] ]=1,[ [=[shell]=] ]=[=[AppSystem/ch/ch253/001/UserData/ch253001FramePillarSSpellShellParamData.user]=],[ [=[shell_id]=] ]=1,[ [=[speed]=] ]=1,[ [=[type]=] ]=[=[shell]=]},{[ [=[enabled]=] ]=true,[ [=[frame]=] ]=2,[ [=[id]=] ]=[=[n_end]=],[ [=[op]=] ]=[=[end]=],[ [=[type]=] ]=[=[flow]=]}},[ [=[uuid]=] ]=[=[638739d8-bcc0-46f6-929d-3a67a9732198]=],[ [=[scripts]=] ]={[ [=[on_frame]=] ]=[=[local skill = ...
+local state = skill.vars
+local now = os.clock()
+state.vsb_cancel_started = state.vsb_cancel_started or now
+
+local full, upper = skill.action(0), skill.action(1)
+local function contains(name, part)
+    return type(name) == "string" and name:lower():find(part, 1, true) ~= nil
+end
+
+-- FAMILY is replaced per spell. Covers Prepare, Ready, SpellStock, Cast and follow-ups.
+local active = contains(full, "salamander") or contains(upper, "salamander")
+if active then
+    state.vsb_cancel_seen = true
+    state.vsb_cancel_left = nil
+    return
+end
+
+-- Missing game data does not establish cancellation.
+if full == nil or upper == nil then return end
+-- Let an asynchronous request take effect, including an immediate retry after cancellation.
+if not state.vsb_cancel_seen and now - state.vsb_cancel_started < 0.25 then return end
+
+if state.vsb_cancel_seen and (contains(full, "cancel") or contains(upper, "cancel")) then
+    skill.finish()
+    return
+end
+
+-- Brief gaps between layers/actions must not end a normal spell transition.
+state.vsb_cancel_left = state.vsb_cancel_left or now
+if now - state.vsb_cancel_left >= 0.10 then skill.finish() end
+]=]}},[ [=[levin]=] ]={[ [=[availability]=] ]={[ [=[list_under]=] ]=[=[Job06]=],[ [=[mode]=] ]=[=[all]=],[ [=[unlock_by]=] ]=[=[vanilla]=]},[ [=[id]=] ]=[=[new_skill_4]=],[ [=[kind]=] ]=[=[custom]=],[ [=[levels]=] ]={[ [=[1]=] ]={[ [=[dcp_cost]=] ]=0,[ [=[unlock_rank]=] ]=1},[ [=[2]=] ]={[ [=[dcp_cost]=] ]=0,[ [=[patch]=] ]={{[ [=[op]=] ]=[=[set]=],[ [=[path]=] ]=[=[/presentation/name/en]=],[ [=[value]=] ]=[=[Lightning Burst]=]}},[ [=[unlock_rank]=] ]=3}},[ [=[presentation]=] ]={[ [=[icon]=] ]=0,[ [=[name]=] ]={[ [=[en]=] ]=[=[Lightning Strike]=]},[ [=[sort_hint]=] ]=100},[ [=[schema_version]=] ]=1,[ [=[timeline]=] ]={{[ [=[action]=] ]=[=[JobMagicUser_PrepareLevin]=],[ [=[air_layer]=] ]=0,[ [=[alt_layer]=] ]=0,[ [=[enabled]=] ]=true,[ [=[frame]=] ]=0,[ [=[hold]=] ]=false,[ [=[id]=] ]=[=[n1]=],[ [=[layer]=] ]=1,[ [=[mirror]=] ]=false,[ [=[speed]=] ]=1,[ [=[type]=] ]=[=[action]=]},{[ [=[attack_rate]=] ]=1,[ [=[cast]=] ]={[ [=[aim_pitch]=] ]=true,[ [=[attach]=] ]=false,[ [=[face]=] ]=[=[owner]=],[ [=[follow]=] ]=[=[always]=],[ [=[follow_children]=] ]=true,[ [=[follow_rotation]=] ]=true,[ [=[joint]=] ]=[=[Head_0]=],[ [=[keep_aim]=] ]=false,[ [=[lock_target]=] ]=[=[enemy]=],[ [=[mode]=] ]=[=[owner]=],[ [=[offset]=] ]={-1,1.4700000286102295,0}},[ [=[cosmetic]=] ]=false,[ [=[element]=] ]=[=[Thunder]=],[ [=[element2]=] ]=[=[None]=],[ [=[element2_share]=] ]=50,[ [=[enabled]=] ]=true,[ [=[frame]=] ]=70,[ [=[ground]=] ]=[=[default]=],[ [=[id]=] ]=[=[n2]=],[ [=[keep_alive]=] ]=false,[ [=[mute]=] ]=false,[ [=[scale]=] ]=1,[ [=[shell]=] ]=[=[AppSystem/ch/ch227/001/UserData/ch227001DarkBulletSLightVerShellParamData.user]=],[ [=[shell_id]=] ]=15,[ [=[speed]=] ]=1,[ [=[type]=] ]=[=[shell]=]},{[ [=[condition]=] ]={[ [=[arg]=] ]=[=[JobMagicUser_CastLevin]=],[ [=[from]=] ]=[=[character]=],[ [=[layer]=] ]=0,[ [=[negate]=] ]=false,[ [=[range]=] ]=10,[ [=[state]=] ]=[=[in_action]=]},[ [=[else_target]=] ]=[=[n5]=],[ [=[enabled]=] ]=true,[ [=[frame]=] ]=70,[ [=[id]=] ]=[=[n3]=],[ [=[op]=] ]=[=[wait_until]=],[ [=[type]=] ]=[=[flow]=],[ [=[window]=] ]=600},{[ [=[attack_rate]=] ]=1,[ [=[cosmetic]=] ]=false,[ [=[element]=] ]=[=[None]=],[ [=[element2]=] ]=[=[None]=],[ [=[element2_share]=] ]=50,[ [=[enabled]=] ]=true,[ [=[frame]=] ]=71,[ [=[ground]=] ]=[=[default]=],[ [=[id]=] ]=[=[n4]=],[ [=[keep_alive]=] ]=false,[ [=[mute]=] ]=false,[ [=[scale]=] ]=1,[ [=[shell]=] ]=[=[AppSystem/ch/ch253/001/UserData/ch253001LevinSpellShellParamData.user]=],[ [=[shell_id]=] ]=11,[ [=[speed]=] ]=1,[ [=[type]=] ]=[=[shell]=]},{[ [=[enabled]=] ]=true,[ [=[frame]=] ]=72,[ [=[id]=] ]=[=[n5]=],[ [=[op]=] ]=[=[end]=],[ [=[type]=] ]=[=[flow]=]}},[ [=[uuid]=] ]=[=[3c0b8528-94e6-431a-bd46-a2be7e2c6501]=],[ [=[scripts]=] ]={[ [=[on_frame]=] ]=[=[local skill = ...
+local state = skill.vars
+local now = os.clock()
+state.vsb_cancel_started = state.vsb_cancel_started or now
+
+local full, upper = skill.action(0), skill.action(1)
+local function contains(name, part)
+    return type(name) == "string" and name:lower():find(part, 1, true) ~= nil
+end
+
+-- FAMILY is replaced per spell. Covers Prepare, Ready, SpellStock, Cast and follow-ups.
+local active = contains(full, "levin") or contains(upper, "levin")
+if active then
+    state.vsb_cancel_seen = true
+    state.vsb_cancel_left = nil
+    return
+end
+
+-- Missing game data does not establish cancellation.
+if full == nil or upper == nil then return end
+-- Let an asynchronous request take effect, including an immediate retry after cancellation.
+if not state.vsb_cancel_seen and now - state.vsb_cancel_started < 0.25 then return end
+
+if state.vsb_cancel_seen and (contains(full, "cancel") or contains(upper, "cancel")) then
+    skill.finish()
+    return
+end
+
+-- Brief gaps between layers/actions must not end a normal spell transition.
+state.vsb_cancel_left = state.vsb_cancel_left or now
+if now - state.vsb_cancel_left >= 0.10 then skill.finish() end
+]=]}}},[ [=[original]=] ]={[ [=[salamander]=] ]={[ [=[availability]=] ]={[ [=[list_under]=] ]=[=[Job06]=],[ [=[mode]=] ]=[=[all]=],[ [=[unlock_by]=] ]=[=[vanilla]=]},[ [=[conditions]=] ]={[ [=[min_stamina]=] ]=1,[ [=[not_carrying]=] ]=true,[ [=[not_restricted]=] ]=true,[ [=[weapon_drawn]=] ]=true},[ [=[id]=] ]=[=[new_skill_3]=],[ [=[kind]=] ]=[=[custom]=],[ [=[levels]=] ]={[ [=[1]=] ]={[ [=[dcp_cost]=] ]=0,[ [=[unlock_rank]=] ]=1},[ [=[2]=] ]={[ [=[dcp_cost]=] ]=0,[ [=[patch]=] ]={{[ [=[op]=] ]=[=[set]=],[ [=[path]=] ]=[=[/presentation/name/en]=],[ [=[value]=] ]=[=[Molten Ground]=]}},[ [=[unlock_rank]=] ]=3}},[ [=[presentation]=] ]={[ [=[icon]=] ]=0,[ [=[name]=] ]={[ [=[en]=] ]=[=[Fire Ground]=]},[ [=[sort_hint]=] ]=100},[ [=[schema_version]=] ]=1,[ [=[timeline]=] ]={{[ [=[action]=] ]=[=[Job06_PrepareSalamander]=],[ [=[air_layer]=] ]=0,[ [=[alt_layer]=] ]=0,[ [=[enabled]=] ]=true,[ [=[frame]=] ]=0,[ [=[hold]=] ]=false,[ [=[id]=] ]=[=[n2]=],[ [=[layer]=] ]=1,[ [=[mirror]=] ]=false,[ [=[speed]=] ]=1,[ [=[type]=] ]=[=[action]=]},{[ [=[condition]=] ]={[ [=[arg]=] ]=[=[Job06_CastSalamander]=],[ [=[from]=] ]=[=[character]=],[ [=[layer]=] ]=0,[ [=[negate]=] ]=false,[ [=[range]=] ]=10,[ [=[state]=] ]=[=[in_action]=]},[ [=[else_target]=] ]=[=[n_end]=],[ [=[enabled]=] ]=true,[ [=[frame]=] ]=0,[ [=[id]=] ]=[=[n3]=],[ [=[op]=] ]=[=[wait_until]=],[ [=[type]=] ]=[=[flow]=],[ [=[window]=] ]=600},{[ [=[attack_rate]=] ]=1,[ [=[cast]=] ]={[ [=[aim_pitch]=] ]=false,[ [=[attach]=] ]=false,[ [=[face]=] ]=[=[owner]=],[ [=[follow]=] ]=[=[none]=],[ [=[follow_children]=] ]=false,[ [=[follow_rotation]=] ]=true,[ [=[keep_aim]=] ]=false,[ [=[lock_target]=] ]=[=[enemy]=],[ [=[mode]=] ]=[=[owner]=],[ [=[offset]=] ]={0,0,10}},[ [=[cosmetic]=] ]=false,[ [=[element]=] ]=[=[None]=],[ [=[element2]=] ]=[=[None]=],[ [=[element2_share]=] ]=50,[ [=[enabled]=] ]=true,[ [=[frame]=] ]=1,[ [=[ground]=] ]=[=[default]=],[ [=[id]=] ]=[=[n1]=],[ [=[keep_alive]=] ]=false,[ [=[mute]=] ]=false,[ [=[scale]=] ]=1,[ [=[shell]=] ]=[=[AppSystem/ch/ch253/001/UserData/ch253001FramePillarSSpellShellParamData.user]=],[ [=[shell_id]=] ]=1,[ [=[speed]=] ]=1,[ [=[type]=] ]=[=[shell]=]},{[ [=[enabled]=] ]=true,[ [=[frame]=] ]=2,[ [=[id]=] ]=[=[n_end]=],[ [=[op]=] ]=[=[end]=],[ [=[type]=] ]=[=[flow]=]}},[ [=[uuid]=] ]=[=[638739d8-bcc0-46f6-929d-3a67a9732198]=]},[ [=[levin]=] ]={[ [=[availability]=] ]={[ [=[list_under]=] ]=[=[Job06]=],[ [=[mode]=] ]=[=[all]=],[ [=[unlock_by]=] ]=[=[vanilla]=]},[ [=[id]=] ]=[=[new_skill_4]=],[ [=[kind]=] ]=[=[custom]=],[ [=[levels]=] ]={[ [=[1]=] ]={[ [=[dcp_cost]=] ]=0,[ [=[unlock_rank]=] ]=1},[ [=[2]=] ]={[ [=[dcp_cost]=] ]=0,[ [=[patch]=] ]={{[ [=[op]=] ]=[=[set]=],[ [=[path]=] ]=[=[/presentation/name/en]=],[ [=[value]=] ]=[=[Lightning Burst]=]}},[ [=[unlock_rank]=] ]=3}},[ [=[presentation]=] ]={[ [=[icon]=] ]=0,[ [=[name]=] ]={[ [=[en]=] ]=[=[Lightning Strike]=]},[ [=[sort_hint]=] ]=100},[ [=[schema_version]=] ]=1,[ [=[timeline]=] ]={{[ [=[action]=] ]=[=[JobMagicUser_PrepareLevin]=],[ [=[air_layer]=] ]=0,[ [=[alt_layer]=] ]=0,[ [=[enabled]=] ]=true,[ [=[frame]=] ]=0,[ [=[hold]=] ]=false,[ [=[id]=] ]=[=[n1]=],[ [=[layer]=] ]=1,[ [=[mirror]=] ]=false,[ [=[speed]=] ]=1,[ [=[type]=] ]=[=[action]=]},{[ [=[attack_rate]=] ]=1,[ [=[cast]=] ]={[ [=[aim_pitch]=] ]=true,[ [=[attach]=] ]=false,[ [=[face]=] ]=[=[owner]=],[ [=[follow]=] ]=[=[always]=],[ [=[follow_children]=] ]=true,[ [=[follow_rotation]=] ]=true,[ [=[joint]=] ]=[=[Head_0]=],[ [=[keep_aim]=] ]=false,[ [=[lock_target]=] ]=[=[enemy]=],[ [=[mode]=] ]=[=[owner]=],[ [=[offset]=] ]={-1,1.4700000286102295,0}},[ [=[cosmetic]=] ]=false,[ [=[element]=] ]=[=[Thunder]=],[ [=[element2]=] ]=[=[None]=],[ [=[element2_share]=] ]=50,[ [=[enabled]=] ]=true,[ [=[frame]=] ]=70,[ [=[ground]=] ]=[=[default]=],[ [=[id]=] ]=[=[n2]=],[ [=[keep_alive]=] ]=false,[ [=[mute]=] ]=false,[ [=[scale]=] ]=1,[ [=[shell]=] ]=[=[AppSystem/ch/ch227/001/UserData/ch227001DarkBulletSLightVerShellParamData.user]=],[ [=[shell_id]=] ]=15,[ [=[speed]=] ]=1,[ [=[type]=] ]=[=[shell]=]},{[ [=[condition]=] ]={[ [=[arg]=] ]=[=[JobMagicUser_CastLevin]=],[ [=[from]=] ]=[=[character]=],[ [=[layer]=] ]=0,[ [=[negate]=] ]=false,[ [=[range]=] ]=10,[ [=[state]=] ]=[=[in_action]=]},[ [=[else_target]=] ]=[=[n5]=],[ [=[enabled]=] ]=true,[ [=[frame]=] ]=70,[ [=[id]=] ]=[=[n3]=],[ [=[op]=] ]=[=[wait_until]=],[ [=[type]=] ]=[=[flow]=],[ [=[window]=] ]=600},{[ [=[attack_rate]=] ]=1,[ [=[cosmetic]=] ]=false,[ [=[element]=] ]=[=[None]=],[ [=[element2]=] ]=[=[None]=],[ [=[element2_share]=] ]=50,[ [=[enabled]=] ]=true,[ [=[frame]=] ]=71,[ [=[ground]=] ]=[=[default]=],[ [=[id]=] ]=[=[n4]=],[ [=[keep_alive]=] ]=false,[ [=[mute]=] ]=false,[ [=[scale]=] ]=1,[ [=[shell]=] ]=[=[AppSystem/ch/ch253/001/UserData/ch253001LevinSpellShellParamData.user]=],[ [=[shell_id]=] ]=11,[ [=[speed]=] ]=1,[ [=[type]=] ]=[=[shell]=]},{[ [=[enabled]=] ]=true,[ [=[frame]=] ]=72,[ [=[id]=] ]=[=[n5]=],[ [=[op]=] ]=[=[end]=],[ [=[type]=] ]=[=[flow]=]}},[ [=[uuid]=] ]=[=[3c0b8528-94e6-431a-bd46-a2be7e2c6501]=]}}}
