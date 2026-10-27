@@ -1,0 +1,31 @@
+{
+  "generated": "2026-10-27T21:09:14Z",
+  "tdb_version": 83,
+  "matches": [
+    "app.HumanCustomSkillID.Job04_AbsoluteAvoidance : app.HumanCustomSkillID",
+    "app.HumanSpecialBuffContext.Job04AbsoluteAvoidanceTimer : System.Single",
+    "app.HumanSpecialBuffContext.Job04AbsoluteAvoidanceType : System.Nullable`1<app.HumanCustomSkillLevelNo>",
+    "app.HumanSpecialBuffContext.get_Job04AbsoluteAvoidanceTimerProp() -> System.Single",
+    "app.HumanSpecialBuffContext.get_Job04AbsoluteAvoidanceTypeProp() -> System.Nullable`1<app.HumanCustomSkillLevelNo>",
+    "app.HumanSpecialBuffContext.set_Job04AbsoluteAvoidanceTimerProp(System.Single) -> System.Void",
+    "app.HumanSpecialBuffContext.set_Job04AbsoluteAvoidanceTypeProp(System.Nullable`1<app.HumanCustomSkillLevelNo>) -> System.Void",
+    "app.HumanSpecialBuffManager.Job04AbsoluteAvoidance : app.HumanSpecialBuffManager.Job04AbsoluteAvoidanceBuff",
+    "app.HumanSpecialBuffManager.Job04AbsoluteAvoidanceBuff.get_AbsoluteAvoidanceParam() -> app.Job04Parameter.AbsoluteAvoidanceParameter",
+    "app.HumanSpecialBuffManager.clearBuff_Job04AbsoluteAvoidance() -> System.Void",
+    "app.HumanSpecialBuffManager.get_IsActiveJob04AbsoluteAvoidance() -> System.Boolean",
+    "app.HumanSpecialBuffManager.startBuff_Job04AbsoluteAvoidance(app.HumanCustomSkillLevelNo, System.Action`1<app.DummyArg_2_0_0_1>) -> System.Void",
+    "app.Job04Parameter.AbsoluteAvoidanceParameter.PawnParams : app.Job04Parameter.AbsoluteAvoidanceParameter.PawnParam[]",
+    "app.Job04Parameter.AbsoluteAvoidanceParameter._HalfJustParam : app.Job04Parameter.AbsoluteAvoidanceParameter.JustParameter",
+    "app.Job04Parameter.AbsoluteAvoidanceParameter._JustParam : app.Job04Parameter.AbsoluteAvoidanceParameter.JustParameter",
+    "app.Job04Parameter.AbsoluteAvoidanceParameter.get_HalfJustParam() -> app.Job04Parameter.AbsoluteAvoidanceParameter.JustParameter",
+    "app.Job04Parameter.AbsoluteAvoidanceParameter.get_JustParam() -> app.Job04Parameter.AbsoluteAvoidanceParameter.JustParameter"
+  ],
+  "human_buff_manager_field": [
+    "SpecialBuffManager : app.HumanSpecialBuffManager"
+  ],
+  "availability_methods": [
+    "getCustomSkillLevel(app.HumanCustomSkillID) -> app.HumanCustomSkillLevelNo",
+    "isCustomSkillEnable(app.HumanCustomSkillID) -> System.Boolean",
+    "isCustomSkillReachLevel(app.HumanCustomSkillID, app.HumanCustomSkillLevelNo) -> System.Boolean"
+  ]
+}

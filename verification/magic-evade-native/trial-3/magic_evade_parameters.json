@@ -1,0 +1,977 @@
+{
+    "active_after_cleanup": false,
+    "active_after_start": true,
+    "buff": {
+        "fields": [
+            {
+                "name": "app.HumanSpecialBuffManager.CustomSkillBuff.<IsLevelEx>k__BackingField",
+                "type": "System.Nullable`1<System.Boolean>",
+                "value": {
+                    "fields": [
+                        {
+                            "name": "System.Nullable`1<System.Boolean>._HasValue",
+                            "type": "System.Boolean",
+                            "value": true
+                        },
+                        {
+                            "name": "System.Nullable`1<System.Boolean>._Value",
+                            "type": "System.Boolean",
+                            "value": false
+                        }
+                    ],
+                    "type": "System.Nullable`1<System.Boolean>"
+                }
+            },
+            {
+                "name": "app.HumanSpecialBuffManager.CustomSkillBuff.<Param>k__BackingField",
+                "type": "app.JobUniqueParameter.BuffParameter",
+                "value": {
+                    "already_seen": true,
+                    "type": "app.JobUniqueParameter.BuffParameter"
+                }
+            },
+            {
+                "name": "app.HumanSpecialBuffManager.CustomSkillBuff.<SkillContext>k__BackingField",
+                "type": "app.HumanSkillContext",
+                "value": {
+                    "fields": [
+                        {
+                            "name": "app.HumanSkillContext.IsAllSkillEnable",
+                            "type": "System.Boolean",
+                            "value": false
+                        },
+                        {
+                            "name": "app.HumanSkillContext.IsNormalSkillEnable",
+                            "type": "System.Boolean",
+                            "value": true
+                        },
+                        {
+                            "name": "app.HumanSkillContext.EquipedSkills",
+                            "type": "app.HumanSkillContext.EquipedSkill[]"
+                        },
+                        {
+                            "name": "app.HumanSkillContext.EnableNormalSkills",
+                            "type": "System.Collections.Generic.List`1<app.HumanSkillContext.EnableNormalSkill>"
+                        },
+                        {
+                            "name": "app.HumanSkillContext.EnabledCustomSkills",
+                            "type": "System.Collections.Generic.List`1<app.HumanSkillContext.EnabledCustomSkill>"
+                        },
+                        {
+                            "name": "app.Context.<IsStore>k__BackingField",
+                            "type": "System.Boolean",
+                            "value": true
+                        },
+                        {
+                            "name": "app.Context.RestoredType",
+                            "type": "app.ContextMemberType",
+                            "value": 1
+                        }
+                    ],
+                    "type": "app.HumanSkillContext"
+                }
+            },
+            {
+                "name": "app.HumanSpecialBuffManager.Buff`1<app.HumanCustomSkillLevelNo>.<Type>k__BackingField",
+                "type": "System.Nullable`1<app.HumanCustomSkillLevelNo>",
+                "value": {
+                    "fields": [
+                        {
+                            "name": "System.Nullable`1<app.HumanCustomSkillLevelNo>._HasValue",
+                            "type": "System.Boolean",
+                            "value": false
+                        },
+                        {
+                            "name": "System.Nullable`1<app.HumanCustomSkillLevelNo>._Value",
+                            "type": "app.HumanCustomSkillLevelNo",
+                            "value": 0
+                        }
+                    ],
+                    "type": "System.Nullable`1<app.HumanCustomSkillLevelNo>"
+                }
+            },
+            {
+                "name": "app.HumanSpecialBuffManager.Buff`1<app.HumanCustomSkillLevelNo>.<LevelEx>k__BackingField",
+                "type": "System.Nullable`1<System.Boolean>",
+                "value": {
+                    "fields": [
+                        {
+                            "name": "System.Nullable`1<System.Boolean>._HasValue",
+                            "type": "System.Boolean",
+                            "value": false
+                        },
+                        {
+                            "name": "System.Nullable`1<System.Boolean>._Value",
+                            "type": "System.Boolean",
+                            "value": false
+                        }
+                    ],
+                    "type": "System.Nullable`1<System.Boolean>"
+                }
+            },
+            {
+                "missing": true,
+                "name": "app.HumanSpecialBuffManager.Buff`1<app.HumanCustomSkillLevelNo>.OnOutOfTime",
+                "type": "System.Action`1<app.DummyArg_2_0_0_1>"
+            },
+            {
+                "name": "app.HumanSpecialBuffManager.BuffBase.<SecTimer>k__BackingField",
+                "type": "System.Single",
+                "value": 0.0
+            },
+            {
+                "name": "app.HumanSpecialBuffManager.BuffBase.<Context>k__BackingField",
+                "type": "app.HumanSpecialBuffContext",
+                "value": {
+                    "fields": [
+                        {
+                            "name": "app.HumanSpecialBuffContext.CampTimer",
+                            "type": "System.Single",
+                            "value": 1440.0040283203125
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.CampType",
+                            "type": "System.Nullable`1<app.HumanSpecialBuffDefine.Camp>",
+                            "value": {
+                                "fields": [
+                                    {
+                                        "name": "System.Nullable`1<app.HumanSpecialBuffDefine.Camp>._HasValue",
+                                        "type": "System.Boolean",
+                                        "value": false
+                                    },
+                                    {
+                                        "name": "System.Nullable`1<app.HumanSpecialBuffDefine.Camp>._Value",
+                                        "type": "app.HumanSpecialBuffDefine.Camp",
+                                        "value": 0
+                                    }
+                                ],
+                                "type": "System.Nullable`1<app.HumanSpecialBuffDefine.Camp>"
+                            }
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.IsSpecialCamp",
+                            "type": "System.Boolean",
+                            "value": false
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.HotSpringTimer",
+                            "type": "System.Single",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.HotSpringType",
+                            "type": "System.Nullable`1<app.HumanSpecialBuffDefine.HotSpring>",
+                            "value": {
+                                "fields": [
+                                    {
+                                        "name": "System.Nullable`1<app.HumanSpecialBuffDefine.HotSpring>._HasValue",
+                                        "type": "System.Boolean",
+                                        "value": false
+                                    },
+                                    {
+                                        "name": "System.Nullable`1<app.HumanSpecialBuffDefine.HotSpring>._Value",
+                                        "type": "app.HumanSpecialBuffDefine.HotSpring",
+                                        "value": 0
+                                    }
+                                ],
+                                "type": "System.Nullable`1<app.HumanSpecialBuffDefine.HotSpring>"
+                            }
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.DrinkingTimer",
+                            "type": "System.Single",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.DrinkingType",
+                            "type": "System.Nullable`1<app.ItemIDEnum>",
+                            "value": {
+                                "fields": [
+                                    {
+                                        "name": "System.Nullable`1<app.ItemIDEnum>._HasValue",
+                                        "type": "System.Boolean",
+                                        "value": false
+                                    },
+                                    {
+                                        "name": "System.Nullable`1<app.ItemIDEnum>._Value",
+                                        "type": "app.ItemIDEnum",
+                                        "value": 0
+                                    }
+                                ],
+                                "type": "System.Nullable`1<app.ItemIDEnum>"
+                            }
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.BrothelTimer",
+                            "type": "System.Single",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.BrothelType",
+                            "type": "System.Nullable`1<app.CharacterID>",
+                            "value": {
+                                "fields": [
+                                    {
+                                        "name": "System.Nullable`1<app.CharacterID>._HasValue",
+                                        "type": "System.Boolean",
+                                        "value": false
+                                    },
+                                    {
+                                        "name": "System.Nullable`1<app.CharacterID>._Value",
+                                        "type": "app.CharacterID",
+                                        "value": 0
+                                    }
+                                ],
+                                "type": "System.Nullable`1<app.CharacterID>"
+                            }
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.ItemTimer",
+                            "type": "System.Single",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.ItemType",
+                            "type": "System.Nullable`1<app.ItemIDEnum>",
+                            "value": {
+                                "fields": [
+                                    {
+                                        "name": "System.Nullable`1<app.ItemIDEnum>._HasValue",
+                                        "type": "System.Boolean",
+                                        "value": false
+                                    },
+                                    {
+                                        "name": "System.Nullable`1<app.ItemIDEnum>._Value",
+                                        "type": "app.ItemIDEnum",
+                                        "value": 0
+                                    }
+                                ],
+                                "type": "System.Nullable`1<app.ItemIDEnum>"
+                            }
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.HeatedStoneTimer",
+                            "type": "System.Single",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.IsEnableHeatedStone",
+                            "type": "System.Boolean",
+                            "value": false
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.StaminaInfinityTimer",
+                            "type": "System.Single",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.IsEnableStaminaInfinity",
+                            "type": "System.Boolean",
+                            "value": false
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.MeatStaminaInfinityTimer",
+                            "type": "System.Single",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.MeatStaminaInfinityType",
+                            "type": "System.Nullable`1<app.HumanSpecialBuffDefine.MeatStaminaInfinity>",
+                            "value": {
+                                "fields": [
+                                    {
+                                        "name": "System.Nullable`1<app.HumanSpecialBuffDefine.MeatStaminaInfinity>._HasValue",
+                                        "type": "System.Boolean",
+                                        "value": false
+                                    },
+                                    {
+                                        "name": "System.Nullable`1<app.HumanSpecialBuffDefine.MeatStaminaInfinity>._Value",
+                                        "type": "app.HumanSpecialBuffDefine.MeatStaminaInfinity",
+                                        "value": 0
+                                    }
+                                ],
+                                "type": "System.Nullable`1<app.HumanSpecialBuffDefine.MeatStaminaInfinity>"
+                            }
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.DragonHermitBuffs",
+                            "type": "System.Collections.Generic.List`1<app.HumanSpecialBuffContext.DragonHermitBuffDefinition>"
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.Job04StealthTimer",
+                            "type": "System.Single",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.Job04StealthType",
+                            "type": "System.Nullable`1<app.HumanCustomSkillLevelNo>",
+                            "value": {
+                                "fields": [
+                                    {
+                                        "name": "System.Nullable`1<app.HumanCustomSkillLevelNo>._HasValue",
+                                        "type": "System.Boolean",
+                                        "value": false
+                                    },
+                                    {
+                                        "name": "System.Nullable`1<app.HumanCustomSkillLevelNo>._Value",
+                                        "type": "app.HumanCustomSkillLevelNo",
+                                        "value": 0
+                                    }
+                                ],
+                                "type": "System.Nullable`1<app.HumanCustomSkillLevelNo>"
+                            }
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.Job04AbsoluteAvoidanceTimer",
+                            "type": "System.Single",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.Job04AbsoluteAvoidanceType",
+                            "type": "System.Nullable`1<app.HumanCustomSkillLevelNo>",
+                            "value": {
+                                "fields": [
+                                    {
+                                        "name": "System.Nullable`1<app.HumanCustomSkillLevelNo>._HasValue",
+                                        "type": "System.Boolean",
+                                        "value": true
+                                    },
+                                    {
+                                        "name": "System.Nullable`1<app.HumanCustomSkillLevelNo>._Value",
+                                        "type": "app.HumanCustomSkillLevelNo",
+                                        "value": 1
+                                    }
+                                ],
+                                "type": "System.Nullable`1<app.HumanCustomSkillLevelNo>"
+                            }
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.Job05WarCryTimer",
+                            "type": "System.Single",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.Job05WarCryType",
+                            "type": "System.Nullable`1<app.HumanCustomSkillLevelNo>",
+                            "value": {
+                                "fields": [
+                                    {
+                                        "name": "System.Nullable`1<app.HumanCustomSkillLevelNo>._HasValue",
+                                        "type": "System.Boolean",
+                                        "value": false
+                                    },
+                                    {
+                                        "name": "System.Nullable`1<app.HumanCustomSkillLevelNo>._Value",
+                                        "type": "app.HumanCustomSkillLevelNo",
+                                        "value": 0
+                                    }
+                                ],
+                                "type": "System.Nullable`1<app.HumanCustomSkillLevelNo>"
+                            }
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.Job05GutsTimer",
+                            "type": "System.Single",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.Job05GutsType",
+                            "type": "System.Nullable`1<app.HumanCustomSkillLevelNo>",
+                            "value": {
+                                "fields": [
+                                    {
+                                        "name": "System.Nullable`1<app.HumanCustomSkillLevelNo>._HasValue",
+                                        "type": "System.Boolean",
+                                        "value": false
+                                    },
+                                    {
+                                        "name": "System.Nullable`1<app.HumanCustomSkillLevelNo>._Value",
+                                        "type": "app.HumanCustomSkillLevelNo",
+                                        "value": 0
+                                    }
+                                ],
+                                "type": "System.Nullable`1<app.HumanCustomSkillLevelNo>"
+                            }
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.Job08LifeReturnTimer",
+                            "type": "System.Single",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.Job08LifeReturnType",
+                            "type": "System.Nullable`1<app.HumanCustomSkillLevelNo>",
+                            "value": {
+                                "fields": [
+                                    {
+                                        "name": "System.Nullable`1<app.HumanCustomSkillLevelNo>._HasValue",
+                                        "type": "System.Boolean",
+                                        "value": false
+                                    },
+                                    {
+                                        "name": "System.Nullable`1<app.HumanCustomSkillLevelNo>._Value",
+                                        "type": "app.HumanCustomSkillLevelNo",
+                                        "value": 0
+                                    }
+                                ],
+                                "type": "System.Nullable`1<app.HumanCustomSkillLevelNo>"
+                            }
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.Job09RageFregranceTimer",
+                            "type": "System.Single",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.Job09RageFregranceType",
+                            "type": "System.Nullable`1<app.HumanCustomSkillLevelNo>",
+                            "value": {
+                                "fields": [
+                                    {
+                                        "name": "System.Nullable`1<app.HumanCustomSkillLevelNo>._HasValue",
+                                        "type": "System.Boolean",
+                                        "value": false
+                                    },
+                                    {
+                                        "name": "System.Nullable`1<app.HumanCustomSkillLevelNo>._Value",
+                                        "type": "app.HumanCustomSkillLevelNo",
+                                        "value": 0
+                                    }
+                                ],
+                                "type": "System.Nullable`1<app.HumanCustomSkillLevelNo>"
+                            }
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.Job09FocusAimSmokeTimer",
+                            "type": "System.Single",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.Job09FocusAimSmokeType",
+                            "type": "System.Nullable`1<app.HumanCustomSkillLevelNo>",
+                            "value": {
+                                "fields": [
+                                    {
+                                        "name": "System.Nullable`1<app.HumanCustomSkillLevelNo>._HasValue",
+                                        "type": "System.Boolean",
+                                        "value": false
+                                    },
+                                    {
+                                        "name": "System.Nullable`1<app.HumanCustomSkillLevelNo>._Value",
+                                        "type": "app.HumanCustomSkillLevelNo",
+                                        "value": 0
+                                    }
+                                ],
+                                "type": "System.Nullable`1<app.HumanCustomSkillLevelNo>"
+                            }
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.Job01AscertainTimer",
+                            "type": "System.Single",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.Job01AscertainType",
+                            "type": "System.Nullable`1<app.HumanCustomSkillLevelNo>",
+                            "value": {
+                                "fields": [
+                                    {
+                                        "name": "System.Nullable`1<app.HumanCustomSkillLevelNo>._HasValue",
+                                        "type": "System.Boolean",
+                                        "value": false
+                                    },
+                                    {
+                                        "name": "System.Nullable`1<app.HumanCustomSkillLevelNo>._Value",
+                                        "type": "app.HumanCustomSkillLevelNo",
+                                        "value": 0
+                                    }
+                                ],
+                                "type": "System.Nullable`1<app.HumanCustomSkillLevelNo>"
+                            }
+                        },
+                        {
+                            "name": "app.HumanSpecialBuffContext.EnableActionSpeedEnchant",
+                            "type": "System.Nullable`1<System.Boolean>",
+                            "value": {
+                                "fields": [
+                                    {
+                                        "name": "System.Nullable`1<System.Boolean>._HasValue",
+                                        "type": "System.Boolean",
+                                        "value": true
+                                    },
+                                    {
+                                        "name": "System.Nullable`1<System.Boolean>._Value",
+                                        "type": "System.Boolean",
+                                        "value": false
+                                    }
+                                ],
+                                "type": "System.Nullable`1<System.Boolean>"
+                            }
+                        },
+                        {
+                            "name": "app.Context.<IsStore>k__BackingField",
+                            "type": "System.Boolean",
+                            "value": true
+                        },
+                        {
+                            "name": "app.Context.RestoredType",
+                            "type": "app.ContextMemberType",
+                            "value": 1
+                        }
+                    ],
+                    "type": "app.HumanSpecialBuffContext"
+                }
+            },
+            {
+                "name": "app.HumanSpecialBuffManager.BuffBase.<AbilityContext>k__BackingField",
+                "type": "app.AbilityContext",
+                "value": {
+                    "fields": [
+                        {
+                            "name": "app.AbilityContext.EquipedAbilities",
+                            "type": "app.AbilityContext.EquipedAbility[]"
+                        },
+                        {
+                            "name": "app.AbilityContext.EnableAbilities",
+                            "type": "System.Collections.Generic.List`1<app.AbilityContext.EnableAbility>"
+                        },
+                        {
+                            "name": "app.AbilityContext.IsAdditionalSlotUnlocked",
+                            "type": "System.Boolean",
+                            "value": false
+                        },
+                        {
+                            "name": "app.Context.<IsStore>k__BackingField",
+                            "type": "System.Boolean",
+                            "value": true
+                        },
+                        {
+                            "name": "app.Context.RestoredType",
+                            "type": "app.ContextMemberType",
+                            "value": 1
+                        }
+                    ],
+                    "type": "app.AbilityContext"
+                }
+            },
+            {
+                "name": "app.HumanSpecialBuffManager.BuffBase.<JobContext>k__BackingField",
+                "type": "app.JobContext",
+                "value": {
+                    "fields": [
+                        {
+                            "name": "app.JobContext.CurrentJob",
+                            "type": "app.Character.JobEnum",
+                            "value": 6
+                        },
+                        {
+                            "name": "app.JobContext.EquipedArmors",
+                            "type": "app.JobContext.EquipedArmor[]"
+                        },
+                        {
+                            "name": "app.JobContext.CulmativeExp",
+                            "type": "System.Int32[]"
+                        },
+                        {
+                            "name": "app.JobContext.ConsumableExp",
+                            "type": "System.Int32",
+                            "value": 9836
+                        },
+                        {
+                            "name": "app.JobContext.ChangedJobBits",
+                            "type": "System.UInt32",
+                            "value": 63
+                        },
+                        {
+                            "name": "app.JobContext.QualifiedJobBits",
+                            "type": "System.UInt32",
+                            "value": 48
+                        },
+                        {
+                            "name": "app.JobContext.ViewedNewJobBits",
+                            "type": "System.UInt32",
+                            "value": 63
+                        },
+                        {
+                            "name": "app.Context.<IsStore>k__BackingField",
+                            "type": "System.Boolean",
+                            "value": true
+                        },
+                        {
+                            "name": "app.Context.RestoredType",
+                            "type": "app.ContextMemberType",
+                            "value": 1
+                        }
+                    ],
+                    "type": "app.JobContext"
+                }
+            },
+            {
+                "name": "app.HumanSpecialBuffManager.BuffBase.<IsEnableTimeSkip>k__BackingField",
+                "type": "System.Boolean",
+                "value": false
+            },
+            {
+                "name": "app.HumanSpecialBuffManager.BuffBase.<IsEnableTimeStop>k__BackingField",
+                "type": "System.Boolean",
+                "value": false
+            },
+            {
+                "name": "app.HumanSpecialBuffManager.BuffBase.<IsEnableTimeStopOnFacility>k__BackingField",
+                "type": "System.Boolean",
+                "value": false
+            }
+        ],
+        "type": "app.HumanSpecialBuffManager.Job04AbsoluteAvoidanceBuff"
+    },
+    "cleared": true,
+    "equipment_comparison": [
+        {
+            "address": 2523437172912,
+            "force": false,
+            "queries": null,
+            "timer_over": true
+        },
+        {
+            "address": 2523437172912,
+            "force": true,
+            "queries": null,
+            "timer_over": true
+        }
+    ],
+    "errors": null,
+    "generated": "2026-10-27T21:48:58Z",
+    "job_comparison": {
+        "original_job": 6,
+        "restored": true,
+        "results": [
+            {
+                "job": 6,
+                "timer_over": true
+            },
+            {
+                "job": 4,
+                "timer_over": true
+            },
+            {
+                "job": 10,
+                "timer_over": true
+            }
+        ]
+    },
+    "level_enum": {
+        "Lv0": 0,
+        "Lv1": 1,
+        "Lv2": 2
+    },
+    "parameter": {
+        "fields": [
+            {
+                "name": "app.JobUniqueParameter.BuffParameter._Time",
+                "type": "System.Single",
+                "value": 1000.0
+            },
+            {
+                "name": "app.JobUniqueParameter.BuffParameter._AttackMultipleFactor",
+                "type": "System.Int32",
+                "value": 100
+            },
+            {
+                "name": "app.JobUniqueParameter.BuffParameter._ReactionAttackMultipleFactor",
+                "type": "System.Int32",
+                "value": 100
+            },
+            {
+                "name": "app.JobUniqueParameter.BuffParameter._GuardAttackMultipleFactor",
+                "type": "System.Int32",
+                "value": 100
+            },
+            {
+                "name": "app.JobUniqueParameter.BuffParameter._DefenceMultipleFactor",
+                "type": "System.Int32",
+                "value": 100
+            },
+            {
+                "name": "app.JobUniqueParameter.BuffParameter._BlownDefenceMultipleFactor",
+                "type": "System.Int32",
+                "value": 100
+            },
+            {
+                "name": "app.JobUniqueParameter.BuffParameter._MaxHpDamageFactor",
+                "type": "System.Int32",
+                "value": 0
+            }
+        ],
+        "type": "app.JobUniqueParameter.BuffParameter"
+    },
+    "preexisting": false,
+    "specific_parameter": {
+        "fields": [
+            {
+                "name": "app.Job04Parameter.AbsoluteAvoidanceParameter._JustParam",
+                "type": "app.Job04Parameter.AbsoluteAvoidanceParameter.JustParameter",
+                "value": {
+                    "fields": [
+                        {
+                            "name": "app.Job04Parameter.AbsoluteAvoidanceParameter.JustParameter._ShellRequestParam",
+                            "type": "app.JobUniqueParameter.ShellRequestParameter",
+                            "value": {
+                                "fields": [
+                                    {
+                                        "name": "app.JobUniqueParameter.ShellRequestParameter._ShellResourceIDHash",
+                                        "type": "System.Nullable`1<System.UInt32>"
+                                    },
+                                    {
+                                        "name": "app.JobUniqueParameter.ShellRequestParameter._ShellRequestIDHash",
+                                        "type": "System.Nullable`1<System.UInt32>"
+                                    },
+                                    {
+                                        "name": "app.JobUniqueParameter.ShellRequestParameter._ShellResourceID",
+                                        "type": "System.String",
+                                        "value": "Job_ID_04"
+                                    },
+                                    {
+                                        "name": "app.JobUniqueParameter.ShellRequestParameter._ShellRequestID",
+                                        "type": "System.String",
+                                        "value": "AbsoluteAvoidance_Just"
+                                    }
+                                ],
+                                "type": "app.JobUniqueParameter.ShellRequestParameter"
+                            }
+                        },
+                        {
+                            "name": "app.Job04Parameter.AbsoluteAvoidanceParameter.JustParameter._WorkRateParam",
+                            "type": "app.WorkRateParameter",
+                            "value": {
+                                "fields": [
+                                    {
+                                        "name": "app.WorkRateParameter.Category",
+                                        "type": "app.WorkRateSystem.Category",
+                                        "value": 2
+                                    },
+                                    {
+                                        "name": "app.WorkRateParameter.ID",
+                                        "type": "System.Int32",
+                                        "value": 4
+                                    },
+                                    {
+                                        "name": "app.WorkRateParameter.Rate",
+                                        "type": "System.Single",
+                                        "value": 0.10000000149011612
+                                    },
+                                    {
+                                        "name": "app.WorkRateParameter.Timer",
+                                        "type": "System.Single",
+                                        "value": 30.0
+                                    }
+                                ],
+                                "type": "app.WorkRateParameter"
+                            }
+                        },
+                        {
+                            "name": "app.Job04Parameter.AbsoluteAvoidanceParameter.JustParameter._StaminaIgnoreFrame",
+                            "type": "System.Single",
+                            "value": 150.0
+                        },
+                        {
+                            "name": "app.Job04Parameter.AbsoluteAvoidanceParameter.JustParameter._SkillStaminaRate",
+                            "type": "System.Single",
+                            "value": 0.25
+                        }
+                    ],
+                    "type": "app.Job04Parameter.AbsoluteAvoidanceParameter.JustParameter"
+                }
+            },
+            {
+                "name": "app.Job04Parameter.AbsoluteAvoidanceParameter._HalfJustParam",
+                "type": "app.Job04Parameter.AbsoluteAvoidanceParameter.JustParameter",
+                "value": {
+                    "fields": [
+                        {
+                            "name": "app.Job04Parameter.AbsoluteAvoidanceParameter.JustParameter._ShellRequestParam",
+                            "type": "app.JobUniqueParameter.ShellRequestParameter",
+                            "value": {
+                                "fields": [
+                                    {
+                                        "name": "app.JobUniqueParameter.ShellRequestParameter._ShellResourceIDHash",
+                                        "type": "System.Nullable`1<System.UInt32>"
+                                    },
+                                    {
+                                        "name": "app.JobUniqueParameter.ShellRequestParameter._ShellRequestIDHash",
+                                        "type": "System.Nullable`1<System.UInt32>"
+                                    },
+                                    {
+                                        "name": "app.JobUniqueParameter.ShellRequestParameter._ShellResourceID",
+                                        "type": "System.String",
+                                        "value": "Job_ID_04"
+                                    },
+                                    {
+                                        "name": "app.JobUniqueParameter.ShellRequestParameter._ShellRequestID",
+                                        "type": "System.String",
+                                        "value": "AbsoluteAvoidance_HalfJust"
+                                    }
+                                ],
+                                "type": "app.JobUniqueParameter.ShellRequestParameter"
+                            }
+                        },
+                        {
+                            "name": "app.Job04Parameter.AbsoluteAvoidanceParameter.JustParameter._WorkRateParam",
+                            "type": "app.WorkRateParameter",
+                            "value": {
+                                "fields": [
+                                    {
+                                        "name": "app.WorkRateParameter.Category",
+                                        "type": "app.WorkRateSystem.Category",
+                                        "value": 2
+                                    },
+                                    {
+                                        "name": "app.WorkRateParameter.ID",
+                                        "type": "System.Int32",
+                                        "value": 4
+                                    },
+                                    {
+                                        "name": "app.WorkRateParameter.Rate",
+                                        "type": "System.Single",
+                                        "value": 0.25
+                                    },
+                                    {
+                                        "name": "app.WorkRateParameter.Timer",
+                                        "type": "System.Single",
+                                        "value": 12.0
+                                    }
+                                ],
+                                "type": "app.WorkRateParameter"
+                            }
+                        },
+                        {
+                            "name": "app.Job04Parameter.AbsoluteAvoidanceParameter.JustParameter._StaminaIgnoreFrame",
+                            "type": "System.Single",
+                            "value": 120.0
+                        },
+                        {
+                            "name": "app.Job04Parameter.AbsoluteAvoidanceParameter.JustParameter._SkillStaminaRate",
+                            "type": "System.Single",
+                            "value": 1.0
+                        }
+                    ],
+                    "type": "app.Job04Parameter.AbsoluteAvoidanceParameter.JustParameter"
+                }
+            },
+            {
+                "name": "app.Job04Parameter.AbsoluteAvoidanceParameter.PawnParams",
+                "type": "app.Job04Parameter.AbsoluteAvoidanceParameter.PawnParam[]"
+            },
+            {
+                "name": "app.JobUniqueParameter.CustomSkillLevelParameter`1<app.Job04Parameter.AbsoluteAvoidanceParameter.LevelParameter>._Elements",
+                "type": "app.JobUniqueParameter.CustomSkillLevelParameter`1.Element[[app.Job04Parameter.AbsoluteAvoidanceParameter.LevelParameter, application, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][]"
+            },
+            {
+                "name": "app.JobUniqueParameter.CustomSkillLevelParameter`1<app.Job04Parameter.AbsoluteAvoidanceParameter.LevelParameter>._LevelExParam",
+                "type": "app.Job04Parameter.AbsoluteAvoidanceParameter.LevelParameter",
+                "value": {
+                    "fields": [
+                        {
+                            "name": "app.Job04Parameter.AbsoluteAvoidanceParameter.LevelParameter._ConsumeStamina",
+                            "type": "System.Single",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "app.Job04Parameter.AbsoluteAvoidanceParameter.LevelParameter.AvoidConsumeStamina",
+                            "type": "System.Single",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "app.Job04Parameter.AbsoluteAvoidanceParameter.LevelParameter.JustAvoidConsumeStamina",
+                            "type": "System.Single",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "app.Job04Parameter.AbsoluteAvoidanceParameter.LevelParameter._ActionSpeedRate",
+                            "type": "System.Single",
+                            "value": 1.0
+                        },
+                        {
+                            "name": "app.Job04Parameter.AbsoluteAvoidanceParameter.LevelParameter._BuffParam",
+                            "type": "app.JobUniqueParameter.BuffParameter",
+                            "value": {
+                                "fields": [
+                                    {
+                                        "name": "app.JobUniqueParameter.BuffParameter._Time",
+                                        "type": "System.Single",
+                                        "value": 5.0
+                                    },
+                                    {
+                                        "name": "app.JobUniqueParameter.BuffParameter._AttackMultipleFactor",
+                                        "type": "System.Int32",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "app.JobUniqueParameter.BuffParameter._ReactionAttackMultipleFactor",
+                                        "type": "System.Int32",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "app.JobUniqueParameter.BuffParameter._GuardAttackMultipleFactor",
+                                        "type": "System.Int32",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "app.JobUniqueParameter.BuffParameter._DefenceMultipleFactor",
+                                        "type": "System.Int32",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "app.JobUniqueParameter.BuffParameter._BlownDefenceMultipleFactor",
+                                        "type": "System.Int32",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "app.JobUniqueParameter.BuffParameter._MaxHpDamageFactor",
+                                        "type": "System.Int32",
+                                        "value": 0
+                                    }
+                                ],
+                                "type": "app.JobUniqueParameter.BuffParameter"
+                            }
+                        }
+                    ],
+                    "type": "app.Job04Parameter.AbsoluteAvoidanceParameter.LevelParameter"
+                }
+            }
+        ],
+        "type": "app.Job04Parameter.AbsoluteAvoidanceParameter"
+    },
+    "timer_at_start": 0.0,
+    "timer_code": [
+        {
+            "address": 140699017305232,
+            "hex": "488b42504885c00f84b35aaf024c8b42204d85c00f84a65aaf024d634028488b40184a8b44c020488b4010448b401c4585c07e134531c942837c88202a740b49ffc14d39c875f0b001c3e9715aaf02cc498b00488b4a1048898180000000c3cc488d0579ffffff488901488d057fffffff48894108488d058492cdf948894110488d05c9ffffff48894118488d054e00000048894120488d05b3ba5aff48894128488d05f833e9ff48894130488d05fd8ecdf948894138488d05625a60ff48894140488d0537ffffff48894148488d057c37e9ff48894150c3cccccccccccccc488b051955df07488b4060488b4058488b4038488b4070c3cccccccccccccccc488d05d9eee8ff488901488d053f00000048894108488d05a43b04ff48894110488d054994fcfe48894118488d059ed1e7ff48894120488d05b388beff48894128c3cccccccccccccccccccccccccccc4883ec58c5f829742440488b058fa2d2074831e04889442438488b050014ba034c8d44243049890041c740040200000041c600014c894424204531c041b902000000e8293b04ffc5f828f0488b4c24384831e1e8285a19ffc5f828c6c5f8287424404883c458c3cccccccccccccccccc488d0529000000488901488d059f305bff48894108488d05041265ff48894110488d05f9415dff48894118c3cccccccc56574883ec284d85c0744e4c89c64983",
+            "type": "app.HumanSpecialBuffManager.Job04AbsoluteAvoidanceBuff"
+        },
+        {
+            "address": 140699062351696,
+            "hex": "5657534883ec40c5f9297424304889d64889cf488b05164923054831e04889442428488b02488d5c24204889d94889fa4989f0ff90c0000000803b00b3017438488b46484885c0742fc5fa5a70104889f94889f2e807f5f1fdc5fa5ac0c5cb59f0488b064889f94889f2ff5068c5fa5ac0c5f92ec60f93c3488b4c24284831e1e88b006afc89d8c5f8287424304883c4405b5f5ec3cccccccccccccccccccccc56574883ec384889d74889ca488b057d4823054831e04889442430488b07488d7424284889f14989f8ff90c0000000803e00be64000000740c488b47484885c074038b7020488b4c24304831e1e81e006afc89f04883c4385f5ec3cccccccccc56574883ec384889d74889ca488b051d4823054831e04889442430488b07488d7424284889f14989f8ff90c0000000803e00be64000000740c488b47484885c074038b7018488b4c24304831e1e8beff69fc89f04883c4385f5ec3cccccccccc56574883ec384889d74889ca488b05bd4723054831e04889442430488b07488d7424284889f14989f8ff90c0000000803e00be64000000740c488b47484885c074038b7024488b4c24304831e1e85eff69fc89f04883c4385f5ec3cccccccccc56574883ec384889d74889ca488b055d4723054831e04889442430488b07488d7424284889f14989f8ff90c0000000803e00be64000000740c488b47484885c0",
+            "type": "app.HumanSpecialBuffManager.CustomSkillBuff"
+        }
+    ],
+    "timer_implementations": [
+        {
+            "result": true,
+            "type": "app.HumanSpecialBuffManager.Job04AbsoluteAvoidanceBuff"
+        },
+        {
+            "result": false,
+            "type": "app.HumanSpecialBuffManager.CustomSkillBuff"
+        },
+        {
+            "error": "lua: error: Invoke threw an exception",
+            "type": "app.HumanSpecialBuffManager.Buff`1<app.HumanCustomSkillLevelNo>"
+        },
+        {
+            "error": "lua: error: Invoke threw an exception",
+            "type": "app.HumanSpecialBuffManager.BuffBase"
+        }
+    ],
+    "timer_over_at_start": true,
+    "version": 5
+}

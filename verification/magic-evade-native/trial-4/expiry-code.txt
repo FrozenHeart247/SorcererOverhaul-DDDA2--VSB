@@ -1,0 +1,71 @@
+app.HumanSpecialBuffManager.Job04AbsoluteAvoidanceBuff
+7ff70af25c90: mov rax, qword ptr [rdx + 0x50]
+7ff70af25c94: test rax, rax
+7ff70af25c97: je 0x7ff70da1b750
+7ff70af25c9d: mov r8, qword ptr [rdx + 0x20]
+7ff70af25ca1: test r8, r8
+7ff70af25ca4: je 0x7ff70da1b750
+7ff70af25caa: movsxd r8, dword ptr [r8 + 0x28]
+7ff70af25cae: mov rax, qword ptr [rax + 0x18]
+7ff70af25cb2: mov rax, qword ptr [rax + r8*8 + 0x20]
+7ff70af25cb7: mov rax, qword ptr [rax + 0x10]
+7ff70af25cbb: mov r8d, dword ptr [rax + 0x1c]
+7ff70af25cbf: test r8d, r8d
+7ff70af25cc2: jle 0x7ff70af25cd7
+7ff70af25cc4: xor r9d, r9d
+7ff70af25cc7: cmp dword ptr [rax + r9*4 + 0x20], 0x2a
+7ff70af25ccd: je 0x7ff70af25cda
+7ff70af25ccf: inc r9
+7ff70af25cd2: cmp r8, r9
+7ff70af25cd5: jne 0x7ff70af25cc7
+7ff70af25cd7: mov al, 1
+7ff70af25cd9: ret 
+7ff70af25cda: jmp 0x7ff70da1b750
+app.HumanSpecialBuffManager.CustomSkillBuff
+7ff70da1b750: push rsi
+7ff70da1b751: push rdi
+7ff70da1b752: push rbx
+7ff70da1b753: sub rsp, 0x40
+7ff70da1b757: vmovapd xmmword ptr [rsp + 0x30], xmm6
+7ff70da1b75d: mov rsi, rdx
+7ff70da1b760: mov rdi, rcx
+7ff70da1b763: mov rax, qword ptr [rip + 0x5234916]
+7ff70da1b76a: xor rax, rsp
+7ff70da1b76d: mov qword ptr [rsp + 0x28], rax
+7ff70da1b772: mov rax, qword ptr [rdx]
+7ff70da1b775: lea rbx, [rsp + 0x20]
+7ff70da1b77a: mov rcx, rbx
+7ff70da1b77d: mov rdx, rdi
+7ff70da1b780: mov r8, rsi
+7ff70da1b783: call qword ptr [rax + 0xc0]
+7ff70da1b789: cmp byte ptr [rbx], 0
+7ff70da1b78c: mov bl, 1
+7ff70da1b78e: je 0x7ff70da1b7c8
+7ff70da1b790: mov rax, qword ptr [rsi + 0x48]
+7ff70da1b794: test rax, rax
+7ff70da1b797: je 0x7ff70da1b7c8
+7ff70da1b799: vcvtss2sd xmm6, xmm0, dword ptr [rax + 0x10]
+7ff70da1b79e: mov rcx, rdi
+7ff70da1b7a1: mov rdx, rsi
+7ff70da1b7a4: call 0x7ff70b93acb0
+7ff70da1b7a9: vcvtss2sd xmm0, xmm0, xmm0
+7ff70da1b7ad: vmulsd xmm6, xmm6, xmm0
+7ff70da1b7b1: mov rax, qword ptr [rsi]
+7ff70da1b7b4: mov rcx, rdi
+7ff70da1b7b7: mov rdx, rsi
+7ff70da1b7ba: call qword ptr [rax + 0x68]
+7ff70da1b7bd: vcvtss2sd xmm0, xmm0, xmm0
+7ff70da1b7c1: vucomisd xmm0, xmm6
+7ff70da1b7c5: setae bl
+7ff70da1b7c8: mov rcx, qword ptr [rsp + 0x28]
+7ff70da1b7cd: xor rcx, rsp
+7ff70da1b7d0: call 0x7ff70a0bb860
+7ff70da1b7d5: mov eax, ebx
+7ff70da1b7d7: vmovaps xmm6, xmmword ptr [rsp + 0x30]
+7ff70da1b7dd: add rsp, 0x40
+7ff70da1b7e1: pop rbx
+7ff70da1b7e2: pop rdi
+7ff70da1b7e3: pop rsi
+7ff70da1b7e4: ret 
+7ff70da1b7e5: int3 
+7ff70da1b7e6: int3 

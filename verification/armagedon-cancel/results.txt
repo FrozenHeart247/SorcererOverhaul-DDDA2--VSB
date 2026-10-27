@@ -1,0 +1,19 @@
+PASS: Skill validates without errors or warnings
+PASS: Only scripts added: timeline, shell settings, IDs and costs are unchanged
+PASS: Original reproduces all scheduled custom shells after cancellation at one second
+PASS: One-second cancellation releases executor: DefaultCancelAction
+PASS: No custom shells launch after cancellation at one second: DefaultCancelAction
+PASS: Armagedon can start again after cancellation: DefaultCancelAction
+PASS: One-second cancellation releases executor: UpperBodyDefault
+PASS: No custom shells launch after cancellation at one second: UpperBodyDefault
+PASS: Armagedon can start again after cancellation: UpperBodyDefault
+PASS: First preparation shell retains frame 78
+PASS: Cancellation after first shell prevents frames 325 and 416
+PASS: Normal cast preserves exact 78/325/416 timing after short gaps and Cast ending early: release 300
+PASS: Released spell completes its sequence
+PASS: Normal cast preserves exact 78/325/416 timing after short gaps and Cast ending early: release 350
+PASS: Released spell completes its sequence
+PASS: Asynchronous startup survives previous cancel action
+PASS: Missing layer data does not falsely cancel preparation
+PASS: Hit interruption still prevents all later shells
+Completed 18 assertions. Actual cancellation and shell visuals require an in-game test.

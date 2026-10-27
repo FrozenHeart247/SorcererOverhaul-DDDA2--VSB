@@ -1,0 +1,14 @@
+{
+  "installed": false,
+  "changed_files": [
+    {
+      "path": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_7.json",
+      "before": "D9CCA7533E9B94F67D6B60E8D1EC32AE750304154AA6EF2E3172208B509EFD57",
+      "after": "C2A8474735A36F96D7A520D094A229111C5E4B07383097AFDD0D84A9422D49A2"
+    }
+  ],
+  "checks_passed": 35,
+  "in_game_tested": false,
+  "native_validation": "failed: Start animation only; no automatic avoidance",
+  "current_game_json": "restored original single-dodge skill"
+}

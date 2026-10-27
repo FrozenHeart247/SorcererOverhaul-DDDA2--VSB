@@ -1,0 +1,29 @@
+{
+  "source": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_7.json",
+  "backup": "backups\\magic-evade-native\\new_skill_7.json",
+  "prepared": "prepared\\magic-evade-native\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_7.json",
+  "original_sha256": "D9CCA7533E9B94F67D6B60E8D1EC32AE750304154AA6EF2E3172208B509EFD57",
+  "prepared_sha256": "9A753F74FE95469B8E7A7DBBA0C6521D7B561588B75E438F8ACABE852C67E31B",
+  "files": [
+    {
+      "prepared": "E:\\Downloads\\Mods\\DDDA2\\CustomClassAndSkills\\SorcererOverhaul(DDDA2)-VSB\\prepared\\magic-evade-native\\reframework\\autorun\\FH_MagicEvade.lua",
+      "target": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\autorun\\FH_MagicEvade.lua",
+      "sha256": "7C3B7C6C3482EF65ACA52AC36E61E4860251E318694E46EBBAC1CD2CF7F52234"
+    },
+    {
+      "prepared": "E:\\Downloads\\Mods\\DDDA2\\CustomClassAndSkills\\SorcererOverhaul(DDDA2)-VSB\\prepared\\magic-evade-native\\reframework\\autorun\\FH_MagicEvade\\bridge.lua",
+      "target": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\autorun\\FH_MagicEvade\\bridge.lua",
+      "sha256": "F4C6A8ACFBD6A375C624A911881E6DA2DFC7944C4E6290CC8B2CEEBE2E61AC78"
+    },
+    {
+      "prepared": "E:\\Downloads\\Mods\\DDDA2\\CustomClassAndSkills\\SorcererOverhaul(DDDA2)-VSB\\prepared\\magic-evade-native\\reframework\\autorun\\FH_MagicEvade\\native.lua",
+      "target": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\autorun\\FH_MagicEvade\\native.lua",
+      "sha256": "AE960A2E74EDCAD63B2630CF6C97BC5B0A751421CEFA41B1A0FCCFB3521EB70D"
+    },
+    {
+      "prepared": "E:\\Downloads\\Mods\\DDDA2\\CustomClassAndSkills\\SorcererOverhaul(DDDA2)-VSB\\prepared\\magic-evade-native\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_7.json",
+      "target": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_7.json",
+      "sha256": "9A753F74FE95469B8E7A7DBBA0C6521D7B561588B75E438F8ACABE852C67E31B"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "source": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_7.json",
+  "failed_backup": "backups\\magic-evade-hold\\start-only.failed.json",
+  "failed_sha256": "77BECEF494772A5ED7D9263A8812343EB341C36F997DE8BBD46F1695EAECB391",
+  "restore_from": "backups\\magic-evade-hold\\new_skill_7.json",
+  "restore_sha256": "D9CCA7533E9B94F67D6B60E8D1EC32AE750304154AA6EF2E3172208B509EFD57",
+  "probe": "diagnostics\\FH_MagicEvadeProbe.lua",
+  "probe_sha256": "C67DD003AFD522F05362BC60746735555C8B4FDC5A955208660355C9DC5A663B"
+}

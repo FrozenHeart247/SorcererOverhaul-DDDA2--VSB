@@ -1,0 +1,150 @@
+{
+    "availability": {
+        "list_under": "Job06",
+        "mode": "all",
+        "unlock_by": "vanilla"
+    },
+    "id": "new_skill_copy_copy",
+    "kind": "custom",
+    "levels": {
+        "1": {
+            "dcp_cost": 300,
+            "unlock_rank": 1
+        }
+    },
+    "presentation": {
+        "desc": {
+            "en": "Meteors"
+        },
+        "icon": 61,
+        "name": {
+            "en": "Armagedon"
+        },
+        "sort_hint": 100
+    },
+    "schema_version": 1,
+    "timeline": [
+        {
+            "action": "Job06_PrepareMeteorFall",
+            "air_layer": 0,
+            "alt_layer": 0,
+            "enabled": true,
+            "frame": 0,
+            "hold": false,
+            "id": "n2",
+            "layer": 1,
+            "mirror": false,
+            "speed": 1.0,
+            "type": "action"
+        },
+        {
+            "apply_status": {
+                "buildup": 25,
+                "chance_pct": 30.0,
+                "mode": "chance",
+                "status": "FireSpread"
+            },
+            "attack_rate": 1,
+            "cast": {
+                "aim_pitch": false,
+                "attach": false,
+                "face": "owner",
+                "follow": "none",
+                "follow_children": false,
+                "follow_rotation": true,
+                "keep_aim": false,
+                "lock_target": "enemy",
+                "mode": "skyfall",
+                "skyfall": {
+                    "camera_relative": false,
+                    "height": 100,
+                    "spread": 0
+                }
+            },
+            "cosmetic": false,
+            "element": "Fire",
+            "element2": "Thunder",
+            "element2_share": 50,
+            "enabled": true,
+            "frame": 416,
+            "ground": "default",
+            "id": "n1",
+            "keep_alive": false,
+            "mute": false,
+            "scale": 1,
+            "shell": "AppSystem/Gimmick/gm81_114/gm81_114_MeteorFallSpellShellParamData.user",
+            "shell_id": 0,
+            "speed": 1,
+            "type": "shell"
+        },
+        {
+            "attack_rate": 1,
+            "cast": {
+                "aim_pitch": false,
+                "attach": false,
+                "face": "owner",
+                "follow": "none",
+                "follow_children": false,
+                "follow_rotation": true,
+                "keep_aim": false,
+                "lock_target": "enemy",
+                "mode": "owner",
+                "offset": [
+                    0.0,
+                    0.0,
+                    35.029998779296875
+                ]
+            },
+            "cosmetic": false,
+            "element": "None",
+            "element2": "None",
+            "element2_share": 50,
+            "enabled": true,
+            "frame": 78,
+            "ground": "default",
+            "id": "n3",
+            "keep_alive": false,
+            "mute": false,
+            "scale": 1,
+            "shell": "AppSystem/ch/ch230/UserData/Shell/ch310027ShellParamData.user",
+            "shell_id": 8,
+            "speed": 1,
+            "type": "shell"
+        },
+        {
+            "attack_rate": 1,
+            "cast": {
+                "aim_pitch": false,
+                "attach": false,
+                "face": "owner",
+                "follow": "none",
+                "follow_children": false,
+                "follow_rotation": true,
+                "keep_aim": false,
+                "lock_target": "enemy",
+                "mode": "owner",
+                "offset": [
+                    0.0,
+                    0.0,
+                    10.0
+                ]
+            },
+            "cosmetic": false,
+            "element": "None",
+            "element2": "None",
+            "element2_share": 50,
+            "enabled": true,
+            "frame": 325,
+            "ground": "default",
+            "id": "n4",
+            "keep_alive": false,
+            "mute": false,
+            "scale": 1,
+            "shell": "AppSystem/ch/ch255/010/UserData/ch255010ShellParamData.user",
+            "shell_id": 0,
+            "speed": 1,
+            "type": "shell"
+        }
+    ],
+    "uuid": "0b5fc4d9-2c01-4117-b394-e00610ec0a4c"
+}

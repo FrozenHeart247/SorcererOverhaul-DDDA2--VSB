@@ -1,0 +1,36 @@
+PASS: Prepared Magic Evade validates without warnings
+PASS: Identity, conditions, presentation, levels and configured costs are preserved
+PASS: Native Start and End actions replace the direct Avoid request
+PASS: Existing disabled editor nodes are preserved
+PASS: Slot 1: starts while held
+PASS: Slot 1: natural action changes do not switch it off
+PASS: Slot 1: release requests End once and frees the next cast
+PASS: Slot 1: release does not repeatedly request End
+PASS: Slot 2: starts while held
+PASS: Slot 2: natural action changes do not switch it off
+PASS: Slot 2: release requests End once and frees the next cast
+PASS: Slot 2: release does not repeatedly request End
+PASS: Slot 3: starts while held
+PASS: Slot 3: natural action changes do not switch it off
+PASS: Slot 3: release requests End once and frees the next cast
+PASS: Slot 3: release does not repeatedly request End
+PASS: Slot 4: starts while held
+PASS: Slot 4: natural action changes do not switch it off
+PASS: Slot 4: release requests End once and frees the next cast
+PASS: Slot 4: release does not repeatedly request End
+PASS: Slot 5: starts while held
+PASS: Slot 5: natural action changes do not switch it off
+PASS: Slot 5: release requests End once and frees the next cast
+PASS: Slot 5: release does not repeatedly request End
+PASS: Slot 6: starts while held
+PASS: Slot 6: natural action changes do not switch it off
+PASS: Slot 6: release requests End once and frees the next cast
+PASS: Slot 6: release does not repeatedly request End
+PASS: Holding longer than the default 10-second tail remains active
+PASS: Long hold still releases normally
+PASS: Another held skill button cannot take over the original hold
+PASS: Ambiguous initial chord ends when either captured skill input is released
+PASS: A new press after release starts a new hold
+PASS: Missing held input ends safely instead of leaving the toggle active
+PASS: Held-input retries cannot toggle Start repeatedly
+Completed 35 assertions. Real input flag mapping and native ability activation/deactivation require an in-game test.

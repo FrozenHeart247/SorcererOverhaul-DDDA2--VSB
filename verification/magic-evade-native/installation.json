@@ -1,0 +1,14 @@
+{
+  "installed": true,
+  "trial": 4,
+  "changed_skill_files": [],
+  "companion_files_updated": 2,
+  "checks_passed": 55,
+  "live_manager_updates": 120,
+  "live_expiry_checks": 121,
+  "live_buff_persisted": true,
+  "live_cleanup_confirmed": true,
+  "automatic_avoidance_verified": false,
+  "script_reset_applied": true,
+  "equipment_check_bypass": "only exact owned AbsoluteAvoidance buff; native base expiry retained"
+}

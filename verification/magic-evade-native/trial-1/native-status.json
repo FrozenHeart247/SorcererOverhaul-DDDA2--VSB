@@ -1,0 +1,135 @@
+{
+    "events": [
+        {
+            "at": "2026-10-27T21:18:46Z",
+            "awaiting_cast": true,
+            "event": "loaded"
+        },
+        {
+            "active": true,
+            "at": "2026-10-27T21:19:21Z",
+            "buttons": [
+                "Skill3"
+            ],
+            "confirmed": true,
+            "event": "start",
+            "level": 1,
+            "owned": true
+        },
+        {
+            "active": false,
+            "at": "2026-10-27T21:19:21Z",
+            "confirmed": true,
+            "detail": "native buff inactive",
+            "event": "stop",
+            "reason": "native buff ended"
+        },
+        {
+            "at": "2026-10-27T21:19:21Z",
+            "event": "native_ended",
+            "reason": "native buff ended"
+        },
+        {
+            "active": true,
+            "at": "2026-10-27T21:19:39Z",
+            "buttons": [
+                "Skill3"
+            ],
+            "confirmed": true,
+            "event": "start",
+            "level": 1,
+            "owned": true
+        },
+        {
+            "active": false,
+            "at": "2026-10-27T21:19:39Z",
+            "confirmed": true,
+            "detail": "native buff inactive",
+            "event": "stop",
+            "reason": "native buff ended"
+        },
+        {
+            "at": "2026-10-27T21:19:39Z",
+            "event": "native_ended",
+            "reason": "native buff ended"
+        },
+        {
+            "active": true,
+            "at": "2026-10-27T21:19:50Z",
+            "buttons": [
+                "Skill3"
+            ],
+            "confirmed": true,
+            "event": "start",
+            "level": 1,
+            "owned": true
+        },
+        {
+            "active": false,
+            "at": "2026-10-27T21:19:50Z",
+            "confirmed": true,
+            "detail": "native buff inactive",
+            "event": "stop",
+            "reason": "native buff ended"
+        },
+        {
+            "at": "2026-10-27T21:19:50Z",
+            "event": "native_ended",
+            "reason": "native buff ended"
+        },
+        {
+            "active": true,
+            "at": "2026-10-27T21:19:58Z",
+            "buttons": [
+                "Skill3"
+            ],
+            "confirmed": true,
+            "event": "start",
+            "level": 1,
+            "owned": true
+        },
+        {
+            "active": false,
+            "at": "2026-10-27T21:19:58Z",
+            "confirmed": true,
+            "detail": "native buff inactive",
+            "event": "stop",
+            "reason": "native buff ended"
+        },
+        {
+            "at": "2026-10-27T21:19:58Z",
+            "event": "native_ended",
+            "reason": "native buff ended"
+        },
+        {
+            "active": true,
+            "at": "2026-10-27T21:20:13Z",
+            "buttons": [
+                "Skill3"
+            ],
+            "confirmed": true,
+            "event": "start",
+            "level": 1,
+            "owned": true
+        },
+        {
+            "active": false,
+            "at": "2026-10-27T21:20:13Z",
+            "confirmed": true,
+            "detail": "native buff inactive",
+            "event": "stop",
+            "reason": "native buff ended"
+        },
+        {
+            "at": "2026-10-27T21:20:13Z",
+            "event": "native_ended",
+            "reason": "native buff ended"
+        }
+    ],
+    "last": {
+        "at": "2026-10-27T21:20:13Z",
+        "event": "native_ended",
+        "reason": "native buff ended"
+    },
+    "version": 1
+}

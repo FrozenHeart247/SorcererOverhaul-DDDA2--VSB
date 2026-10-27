@@ -1,0 +1,86 @@
+{
+  "availability": {
+    "list_under": "Job06",
+    "mode": "all",
+    "unlock_by": "vanilla"
+  },
+  "conditions": {
+    "min_stamina": 1,
+    "not_carrying": true,
+    "not_restricted": false
+  },
+  "costs": {
+    "charges": 5,
+    "cooldown_s": 0.05000000074505806,
+    "stamina": {
+      "amount": 10.0,
+      "at_frame": 0,
+      "lvl1_mult": 1.5
+    }
+  },
+  "id": "new_skill_7",
+  "kind": "custom",
+  "levels": {
+    "1": {
+      "dcp_cost": 0,
+      "unlock_rank": 1
+    }
+  },
+  "presentation": {
+    "icon": 0,
+    "name": {
+      "en": "Magic Evade"
+    },
+    "sort_hint": 100
+  },
+  "schema_version": 1,
+  "timeline": [
+    {
+      "action": "Job04_AbsoluteAvoidanceStart",
+      "air_layer": 0,
+      "alt_layer": 0,
+      "enabled": true,
+      "frame": 0,
+      "hold": false,
+      "id": "n2",
+      "layer": 0,
+      "mirror": false,
+      "speed": 1.0,
+      "type": "action"
+    },
+    {
+      "enabled": false,
+      "frame": 60,
+      "id": "n1",
+      "op": "end",
+      "type": "flow"
+    },
+    {
+      "attack_rate": 1,
+      "cosmetic": false,
+      "element": "None",
+      "element2": "None",
+      "element2_share": 50,
+      "enabled": false,
+      "frame": 80,
+      "ground": "default",
+      "id": "n3",
+      "keep_alive": false,
+      "mute": false,
+      "scale": 1,
+      "shell": "",
+      "shell_id": 0,
+      "speed": 1,
+      "type": "shell"
+    }
+  ],
+  "uuid": "3f67be32-a628-4ec1-8e8a-0f13b70725cc",
+  "scripts": {
+    "on_start": "local skill = ...\nlocal buttons = {}\nfor i = 1, 6 do\n    local button = \"Skill\" .. i\n    if skill.button(button) then buttons[#buttons + 1] = button end\nend\n-- Capture once: another skill button must not take over this hold later.\nskill.vars.magic_evade_buttons = buttons\n",
+    "on_frame": "local skill = ...\nif skill.vars.magic_evade_native_stop then skill.finish(); return end\n\nlocal buttons = skill.vars.magic_evade_buttons or {}\nif #buttons == 0 then\n    skill.log(\"Magic Evade: no held Skill1..Skill6 input detected; ending safely\")\n    skill.finish()\n    return\nend\nfor _, button in ipairs(buttons) do\n    if not skill.button(button) then\n        -- end.exit_action requests Job04_AbsoluteAvoidanceEnd on normal finish.\n        skill.finish()\n        return\n    end\nend\n"
+  },
+  "end": {
+    "at_frame": 2147483647,
+    "exit_action": "Job04_AbsoluteAvoidanceEnd"
+  }
+}
