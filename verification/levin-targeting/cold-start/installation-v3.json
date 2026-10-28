@@ -1,0 +1,22 @@
+{
+  "date_utc": "2026-10-28T05:27:33.3548785Z",
+  "installed_files": [
+    {
+      "file": "FH_LevinTargeting.lua",
+      "source": "E:\\Downloads\\Mods\\DDDA2\\CustomClassAndSkills\\SorcererOverhaul(DDDA2)-VSB\\prepared\\levin-targeting\\reframework\\autorun\\FH_LevinTargeting.lua",
+      "installed": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\autorun\\FH_LevinTargeting.lua",
+      "sha256": "64E6F9F5A79876A2749E099018291A0211CE56589F5649E4577DF40634CFD56D"
+    },
+    {
+      "file": "FH_LevinTargeting\\controller.lua",
+      "source": "E:\\Downloads\\Mods\\DDDA2\\CustomClassAndSkills\\SorcererOverhaul(DDDA2)-VSB\\prepared\\levin-targeting\\reframework\\autorun\\FH_LevinTargeting\\controller.lua",
+      "installed": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\autorun\\FH_LevinTargeting\\controller.lua",
+      "sha256": "B14B91B09C6A238927A0E88860DA0986968A82458E6F358BA86A053831CD21AF"
+    }
+  ],
+  "skill_json_unchanged": true,
+  "skill_json_sha256": "633C5384F61F80BAD655ACF2B1F3B845D8B93B409C30BD2BAAAC29D3C26A15E0",
+  "behavioral_checks": 36,
+  "bounded_live_check_passed": true,
+  "gameplay_distant_enemy_acquisition": "pending user comparison"
+}

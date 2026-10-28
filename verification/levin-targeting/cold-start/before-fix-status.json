@@ -1,0 +1,407 @@
+{
+    "events": [
+        {
+            "at": "2026-10-28T05:29:47Z",
+            "event": "start",
+            "level": 2
+        },
+        {
+            "at": "2026-10-28T05:29:56Z",
+            "event": "stop",
+            "first": {
+                "after": {
+                    "ActionID": 0,
+                    "ActionType": 3,
+                    "CustomSkillID": 25,
+                    "IsUseForChangeTarget": false,
+                    "IsUseOnAir": false,
+                    "Job": 0
+                },
+                "before": {
+                    "ActionID": 0,
+                    "ActionType": 0,
+                    "CustomSkillID": 0,
+                    "IsUseForChangeTarget": false,
+                    "IsUseOnAir": false,
+                    "Job": 0
+                },
+                "profile": {
+                    "action_type": 0,
+                    "based_on_camera": false,
+                    "lock_on_ui": false,
+                    "max_distance": -1.0,
+                    "skill": 43
+                },
+                "update_type": 1
+            },
+            "reason": "finished",
+            "updates": 400
+        },
+        {
+            "at": "2026-10-28T05:30:10Z",
+            "event": "start",
+            "level": 2
+        },
+        {
+            "at": "2026-10-28T05:30:15Z",
+            "event": "stop",
+            "first": {
+                "after": {
+                    "ActionID": 0,
+                    "ActionType": 3,
+                    "CustomSkillID": 25,
+                    "IsUseForChangeTarget": false,
+                    "IsUseOnAir": true,
+                    "Job": 6
+                },
+                "before": {
+                    "ActionID": 0,
+                    "ActionType": 3,
+                    "CustomSkillID": 67,
+                    "IsUseForChangeTarget": false,
+                    "IsUseOnAir": true,
+                    "Job": 6
+                },
+                "profile": {
+                    "action_type": 3,
+                    "based_on_camera": true,
+                    "lock_on_ui": true,
+                    "max_distance": 32.0,
+                    "skill": 25
+                },
+                "update_type": 1
+            },
+            "reason": "finished",
+            "updates": 292
+        },
+        {
+            "at": "2026-10-28T05:30:19Z",
+            "event": "start",
+            "level": 2
+        },
+        {
+            "at": "2026-10-28T05:30:24Z",
+            "event": "stop",
+            "first": {
+                "after": {
+                    "ActionID": 0,
+                    "ActionType": 3,
+                    "CustomSkillID": 25,
+                    "IsUseForChangeTarget": false,
+                    "IsUseOnAir": true,
+                    "Job": 6
+                },
+                "before": {
+                    "ActionID": 0,
+                    "ActionType": 3,
+                    "CustomSkillID": 67,
+                    "IsUseForChangeTarget": false,
+                    "IsUseOnAir": true,
+                    "Job": 6
+                },
+                "profile": {
+                    "action_type": 3,
+                    "based_on_camera": true,
+                    "lock_on_ui": true,
+                    "max_distance": 32.0,
+                    "skill": 25
+                },
+                "update_type": 1
+            },
+            "reason": "finished",
+            "updates": 264
+        },
+        {
+            "at": "2026-10-28T05:30:49Z",
+            "event": "start",
+            "level": 2
+        },
+        {
+            "at": "2026-10-28T05:30:53Z",
+            "event": "stop",
+            "first": {
+                "after": {
+                    "ActionID": 0,
+                    "ActionType": 3,
+                    "CustomSkillID": 25,
+                    "IsUseForChangeTarget": false,
+                    "IsUseOnAir": false,
+                    "Job": 6
+                },
+                "before": {
+                    "ActionID": 0,
+                    "ActionType": 3,
+                    "CustomSkillID": 67,
+                    "IsUseForChangeTarget": false,
+                    "IsUseOnAir": false,
+                    "Job": 6
+                },
+                "profile": {
+                    "action_type": 3,
+                    "based_on_camera": true,
+                    "lock_on_ui": true,
+                    "max_distance": 32.0,
+                    "skill": 25
+                },
+                "update_type": 1
+            },
+            "reason": "finished",
+            "updates": 204
+        },
+        {
+            "at": "2026-10-28T05:34:58Z",
+            "event": "start",
+            "level": 2
+        },
+        {
+            "at": "2026-10-28T05:35:03Z",
+            "event": "stop",
+            "first": {
+                "after": {
+                    "ActionID": 0,
+                    "ActionType": 3,
+                    "CustomSkillID": 25,
+                    "IsUseForChangeTarget": false,
+                    "IsUseOnAir": false,
+                    "Job": 0
+                },
+                "before": {
+                    "ActionID": 0,
+                    "ActionType": 0,
+                    "CustomSkillID": 0,
+                    "IsUseForChangeTarget": false,
+                    "IsUseOnAir": false,
+                    "Job": 0
+                },
+                "profile": {
+                    "action_type": 0,
+                    "based_on_camera": false,
+                    "lock_on_ui": false,
+                    "max_distance": -1.0,
+                    "skill": 43
+                },
+                "update_type": 7
+            },
+            "reason": "finished",
+            "updates": 216
+        },
+        {
+            "at": "2026-10-28T05:35:03Z",
+            "event": "start",
+            "level": 2
+        },
+        {
+            "at": "2026-10-28T05:35:07Z",
+            "event": "stop",
+            "first": {
+                "after": {
+                    "ActionID": 0,
+                    "ActionType": 3,
+                    "CustomSkillID": 25,
+                    "IsUseForChangeTarget": false,
+                    "IsUseOnAir": false,
+                    "Job": 0
+                },
+                "before": {
+                    "ActionID": 0,
+                    "ActionType": 0,
+                    "CustomSkillID": 0,
+                    "IsUseForChangeTarget": false,
+                    "IsUseOnAir": false,
+                    "Job": 0
+                },
+                "profile": {
+                    "action_type": 0,
+                    "based_on_camera": false,
+                    "lock_on_ui": false,
+                    "max_distance": -1.0,
+                    "skill": 43
+                },
+                "update_type": 1
+            },
+            "reason": "finished",
+            "updates": 162
+        },
+        {
+            "at": "2026-10-28T05:35:10Z",
+            "event": "start",
+            "level": 2
+        },
+        {
+            "at": "2026-10-28T05:35:13Z",
+            "event": "stop",
+            "first": {
+                "after": {
+                    "ActionID": 0,
+                    "ActionType": 3,
+                    "CustomSkillID": 25,
+                    "IsUseForChangeTarget": false,
+                    "IsUseOnAir": false,
+                    "Job": 0
+                },
+                "before": {
+                    "ActionID": 0,
+                    "ActionType": 0,
+                    "CustomSkillID": 0,
+                    "IsUseForChangeTarget": false,
+                    "IsUseOnAir": false,
+                    "Job": 0
+                },
+                "profile": {
+                    "action_type": 0,
+                    "based_on_camera": false,
+                    "lock_on_ui": false,
+                    "max_distance": -1.0,
+                    "skill": 43
+                },
+                "update_type": 1
+            },
+            "reason": "finished",
+            "updates": 116
+        },
+        {
+            "at": "2026-10-28T05:35:13Z",
+            "event": "start",
+            "level": 2
+        },
+        {
+            "at": "2026-10-28T05:35:15Z",
+            "event": "stop",
+            "first": {
+                "after": {
+                    "ActionID": 0,
+                    "ActionType": 3,
+                    "CustomSkillID": 25,
+                    "IsUseForChangeTarget": false,
+                    "IsUseOnAir": false,
+                    "Job": 0
+                },
+                "before": {
+                    "ActionID": 0,
+                    "ActionType": 0,
+                    "CustomSkillID": 0,
+                    "IsUseForChangeTarget": false,
+                    "IsUseOnAir": false,
+                    "Job": 0
+                },
+                "profile": {
+                    "action_type": 0,
+                    "based_on_camera": false,
+                    "lock_on_ui": false,
+                    "max_distance": -1.0,
+                    "skill": 43
+                },
+                "update_type": 1
+            },
+            "reason": "finished",
+            "updates": 2
+        },
+        {
+            "at": "2026-10-28T05:35:18Z",
+            "event": "start",
+            "level": 2
+        },
+        {
+            "at": "2026-10-28T05:35:22Z",
+            "event": "stop",
+            "first": {
+                "after": {
+                    "ActionID": 0,
+                    "ActionType": 3,
+                    "CustomSkillID": 25,
+                    "IsUseForChangeTarget": false,
+                    "IsUseOnAir": false,
+                    "Job": 6
+                },
+                "before": {
+                    "ActionID": 0,
+                    "ActionType": 3,
+                    "CustomSkillID": 67,
+                    "IsUseForChangeTarget": false,
+                    "IsUseOnAir": false,
+                    "Job": 6
+                },
+                "profile": {
+                    "action_type": 3,
+                    "based_on_camera": true,
+                    "lock_on_ui": true,
+                    "max_distance": 32.0,
+                    "skill": 25
+                },
+                "update_type": 1
+            },
+            "reason": "finished",
+            "updates": 214
+        },
+        {
+            "at": "2026-10-28T05:35:31Z",
+            "event": "start",
+            "level": 2
+        },
+        {
+            "at": "2026-10-28T05:35:35Z",
+            "event": "stop",
+            "first": {
+                "after": {
+                    "ActionID": 0,
+                    "ActionType": 3,
+                    "CustomSkillID": 25,
+                    "IsUseForChangeTarget": false,
+                    "IsUseOnAir": false,
+                    "Job": 6
+                },
+                "before": {
+                    "ActionID": 0,
+                    "ActionType": 3,
+                    "CustomSkillID": 67,
+                    "IsUseForChangeTarget": false,
+                    "IsUseOnAir": false,
+                    "Job": 6
+                },
+                "profile": {
+                    "action_type": 3,
+                    "based_on_camera": true,
+                    "lock_on_ui": true,
+                    "max_distance": 32.0,
+                    "skill": 25
+                },
+                "update_type": 1
+            },
+            "reason": "finished",
+            "updates": 226
+        }
+    ],
+    "last": {
+        "at": "2026-10-28T05:35:35Z",
+        "event": "stop",
+        "first": {
+            "after": {
+                "ActionID": 0,
+                "ActionType": 3,
+                "CustomSkillID": 25,
+                "IsUseForChangeTarget": false,
+                "IsUseOnAir": false,
+                "Job": 6
+            },
+            "before": {
+                "ActionID": 0,
+                "ActionType": 3,
+                "CustomSkillID": 67,
+                "IsUseForChangeTarget": false,
+                "IsUseOnAir": false,
+                "Job": 6
+            },
+            "profile": {
+                "action_type": 3,
+                "based_on_camera": true,
+                "lock_on_ui": true,
+                "max_distance": 32.0,
+                "skill": 25
+            },
+            "update_type": 1
+        },
+        "reason": "finished",
+        "updates": 226
+    },
+    "version": 3
+}

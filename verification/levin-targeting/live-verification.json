@@ -1,0 +1,191 @@
+{
+    "at": "2026-10-28T05:25:29Z",
+    "errors": null,
+    "first": {
+        "after": {
+            "ActionID": 0,
+            "ActionType": 3,
+            "CustomSkillID": 25,
+            "IsUseForChangeTarget": false,
+            "IsUseOnAir": false,
+            "Job": 6
+        },
+        "before": {
+            "ActionID": 0,
+            "ActionType": 3,
+            "CustomSkillID": 141,
+            "IsUseForChangeTarget": false,
+            "IsUseOnAir": false,
+            "Job": 6
+        },
+        "profile": {
+            "action_type": 3,
+            "based_on_camera": true,
+            "lock_on_ui": true,
+            "max_distance": 32.0,
+            "skill": 25
+        },
+        "update_type": 6
+    },
+    "inactive_after": true,
+    "layout": [
+        {
+            "fields": [
+                {
+                    "name": "<ParameterInfo>k__BackingField",
+                    "offset": 40
+                },
+                {
+                    "name": "<isSetMaxLockOn>k__BackingField",
+                    "offset": 74
+                },
+                {
+                    "name": "<IsAnotherLockOn>k__BackingField",
+                    "offset": 78
+                },
+                {
+                    "name": "<IsAnotherLockOnExternal>k__BackingField",
+                    "offset": 72
+                },
+                {
+                    "name": "<IsShootWithoutAim>k__BackingField",
+                    "offset": 73
+                },
+                {
+                    "name": "<TargetObject>k__BackingField",
+                    "offset": 32
+                },
+                {
+                    "name": "<IsUseLockOnUI>k__BackingField",
+                    "offset": 75
+                },
+                {
+                    "name": "<IsUseCustomTransform>k__BackingField",
+                    "offset": 77
+                },
+                {
+                    "name": "<CustomBasePos>k__BackingField",
+                    "offset": 16
+                },
+                {
+                    "name": "<CustomBaseAngle>k__BackingField",
+                    "offset": 48
+                },
+                {
+                    "name": "<TargetActionID>k__BackingField",
+                    "offset": 52
+                },
+                {
+                    "name": "RateRadiusScale",
+                    "offset": 56
+                },
+                {
+                    "name": "UpdateType2",
+                    "offset": 60
+                },
+                {
+                    "name": "IsUseLeverInternal",
+                    "offset": 76
+                },
+                {
+                    "name": "MaxLockOnCount",
+                    "offset": 64
+                },
+                {
+                    "name": "AdditionalOptionFlag",
+                    "offset": 68
+                }
+            ],
+            "is_value_type": false,
+            "name": "app.LockOnController.Option",
+            "size": 64
+        },
+        {
+            "fields": [
+                {
+                    "name": "<Job>k__BackingField",
+                    "offset": 16
+                },
+                {
+                    "name": "<ActionType>k__BackingField",
+                    "offset": 20
+                },
+                {
+                    "name": "<ActionID>k__BackingField",
+                    "offset": 24
+                },
+                {
+                    "name": "<CustomSkillID>k__BackingField",
+                    "offset": 28
+                },
+                {
+                    "name": "<IsUseOnAir>k__BackingField",
+                    "offset": 32
+                },
+                {
+                    "name": "<IsUseForChangeTarget>k__BackingField",
+                    "offset": 33
+                }
+            ],
+            "is_value_type": false,
+            "name": "app.LockOnRangeParameter.RequestParameterInfo",
+            "size": 24
+        }
+    ],
+    "option_after": {
+        "<CustomBaseAngle>k__BackingField": 0.0,
+        "<CustomBasePos>k__BackingField": "sol.glm::vec<3,float,0>: 000001C105176528",
+        "<IsAnotherLockOn>k__BackingField": false,
+        "<IsAnotherLockOnExternal>k__BackingField": false,
+        "<IsShootWithoutAim>k__BackingField": false,
+        "<IsUseCustomTransform>k__BackingField": false,
+        "<IsUseLockOnUI>k__BackingField": false,
+        "<ParameterInfo>k__BackingField": {
+            "<ActionID>k__BackingField": 0,
+            "<ActionType>k__BackingField": 3,
+            "<CustomSkillID>k__BackingField": 141,
+            "<IsUseForChangeTarget>k__BackingField": false,
+            "<IsUseOnAir>k__BackingField": false,
+            "<Job>k__BackingField": 6
+        },
+        "<TargetActionID>k__BackingField": 0,
+        "<TargetObject>k__BackingField": "nil",
+        "<isSetMaxLockOn>k__BackingField": false,
+        "AdditionalOptionFlag": 0,
+        "IsUseLeverInternal": false,
+        "MaxLockOnCount": 32,
+        "RateRadiusScale": 1.0,
+        "UpdateType2": 6
+    },
+    "option_before": {
+        "<CustomBaseAngle>k__BackingField": 0.0,
+        "<CustomBasePos>k__BackingField": "sol.glm::vec<3,float,0>: 000001C105175E68",
+        "<IsAnotherLockOn>k__BackingField": false,
+        "<IsAnotherLockOnExternal>k__BackingField": false,
+        "<IsShootWithoutAim>k__BackingField": false,
+        "<IsUseCustomTransform>k__BackingField": false,
+        "<IsUseLockOnUI>k__BackingField": false,
+        "<ParameterInfo>k__BackingField": {
+            "<ActionID>k__BackingField": 0,
+            "<ActionType>k__BackingField": 3,
+            "<CustomSkillID>k__BackingField": 141,
+            "<IsUseForChangeTarget>k__BackingField": false,
+            "<IsUseOnAir>k__BackingField": false,
+            "<Job>k__BackingField": 6
+        },
+        "<TargetActionID>k__BackingField": 0,
+        "<TargetObject>k__BackingField": "nil",
+        "<isSetMaxLockOn>k__BackingField": false,
+        "AdditionalOptionFlag": 0,
+        "IsUseLeverInternal": false,
+        "MaxLockOnCount": 32,
+        "RateRadiusScale": 1.0,
+        "UpdateType2": 6
+    },
+    "passed": true,
+    "stage": "validate",
+    "target_after": "none",
+    "target_before": "none",
+    "updates": 1,
+    "version": 1
+}

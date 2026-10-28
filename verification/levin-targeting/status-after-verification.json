@@ -1,0 +1,83 @@
+{
+    "events": [
+        {
+            "at": "2026-10-28T05:25:29Z",
+            "event": "loaded"
+        },
+        {
+            "at": "2026-10-28T05:25:29Z",
+            "event": "ready",
+            "native_skill_id": 25
+        },
+        {
+            "at": "2026-10-28T05:25:29Z",
+            "event": "start",
+            "level": 1
+        },
+        {
+            "at": "2026-10-28T05:25:29Z",
+            "event": "stop",
+            "first": {
+                "after": {
+                    "ActionID": 0,
+                    "ActionType": 3,
+                    "CustomSkillID": 25,
+                    "IsUseForChangeTarget": false,
+                    "IsUseOnAir": false,
+                    "Job": 6
+                },
+                "before": {
+                    "ActionID": 0,
+                    "ActionType": 3,
+                    "CustomSkillID": 141,
+                    "IsUseForChangeTarget": false,
+                    "IsUseOnAir": false,
+                    "Job": 6
+                },
+                "profile": {
+                    "action_type": 3,
+                    "based_on_camera": true,
+                    "lock_on_ui": true,
+                    "max_distance": 32.0,
+                    "skill": 25
+                },
+                "update_type": 6
+            },
+            "reason": "bounded live verification",
+            "updates": 1
+        }
+    ],
+    "last": {
+        "at": "2026-10-28T05:25:29Z",
+        "event": "stop",
+        "first": {
+            "after": {
+                "ActionID": 0,
+                "ActionType": 3,
+                "CustomSkillID": 25,
+                "IsUseForChangeTarget": false,
+                "IsUseOnAir": false,
+                "Job": 6
+            },
+            "before": {
+                "ActionID": 0,
+                "ActionType": 3,
+                "CustomSkillID": 141,
+                "IsUseForChangeTarget": false,
+                "IsUseOnAir": false,
+                "Job": 6
+            },
+            "profile": {
+                "action_type": 3,
+                "based_on_camera": true,
+                "lock_on_ui": true,
+                "max_distance": 32.0,
+                "skill": 25
+            },
+            "update_type": 6
+        },
+        "reason": "bounded live verification",
+        "updates": 1
+    },
+    "version": 3
+}

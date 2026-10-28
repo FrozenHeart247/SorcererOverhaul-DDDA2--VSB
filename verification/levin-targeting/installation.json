@@ -1,0 +1,21 @@
+{
+  "date_utc": "2026-10-28T05:40:58.0483475Z",
+  "version": 4,
+  "installed_files": [
+    {
+      "file": "FH_LevinTargeting.lua",
+      "sha256": "38A76F75F9E7B174568F833D29804B6739A2FB7B1AE45CD7CBA833341E743ABA",
+      "installed": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\autorun\\FH_LevinTargeting.lua"
+    },
+    {
+      "file": "FH_LevinTargeting\\controller.lua",
+      "sha256": "6A546C549259ABA33EDA102E1AAE0C146F3830EF1D1B57628AA42800A918CE4C",
+      "installed": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\autorun\\FH_LevinTargeting\\controller.lua"
+    }
+  ],
+  "skill_json_unchanged": true,
+  "skill_json_sha256": "633C5384F61F80BAD655ACF2B1F3B845D8B93B409C30BD2BAAAC29D3C26A15E0",
+  "behavioral_checks": 39,
+  "bounded_live_cold_request_check_passed": true,
+  "first_real_cast_after_loading": "pending user gameplay verification"
+}
