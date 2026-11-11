@@ -1,0 +1,14 @@
+PASS: Original tracker reproduces a native shell persisting beyond lifetime 5
+PASS: Root and tracked child survive before five seconds
+PASS: Explicit lifetime removes only this tracked root and its tracked child
+PASS: Expired shells are not destroyed twice
+PASS: Zero or omitted lifetime keeps native duration and global cap
+PASS: Global cap still removes an untimed shell
+PASS: Zero or omitted lifetime keeps native duration and global cap
+PASS: Global cap still removes an untimed shell
+PASS: Shorter global cap still wins
+PASS: Explicit lifetime works when global cap is disabled
+PASS: Keep-alive cannot exceed explicit lifetime
+PASS: Natural early finish is preserved
+PASS: No lifetime and no global cap remains unlimited
+Completed 13 tracker checks. Native destruction still needs an in-game check.

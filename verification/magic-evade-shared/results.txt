@@ -1,0 +1,68 @@
+PASS: Native hold JSON validates without warnings
+PASS: Configured costs, identity, conditions and presentation are preserved
+PASS: Native-only hold does not force Start or End animations
+PASS: Regression scenario: Start resetting the buff reproduces immediate native expiry
+PASS: Native-only variant avoids the animation-reset path
+PASS: Activation reports the unchanged learned level and native parameter presence
+PASS: Release clears the native buff without any action request
+PASS: Slot 1: exact native start call activates the mocked buff
+PASS: Slot 1: long hold does not restart or refresh native buff
+PASS: Slot 1: release clears buff and frees VSB
+PASS: Slot 1: off-state readback is recorded
+PASS: Slot 2: exact native start call activates the mocked buff
+PASS: Slot 2: long hold does not restart or refresh native buff
+PASS: Slot 2: release clears buff and frees VSB
+PASS: Slot 2: off-state readback is recorded
+PASS: Slot 3: exact native start call activates the mocked buff
+PASS: Slot 3: long hold does not restart or refresh native buff
+PASS: Slot 3: release clears buff and frees VSB
+PASS: Slot 3: off-state readback is recorded
+PASS: Slot 4: exact native start call activates the mocked buff
+PASS: Slot 4: long hold does not restart or refresh native buff
+PASS: Slot 4: release clears buff and frees VSB
+PASS: Slot 4: off-state readback is recorded
+PASS: Slot 5: exact native start call activates the mocked buff
+PASS: Slot 5: long hold does not restart or refresh native buff
+PASS: Slot 5: release clears buff and frees VSB
+PASS: Slot 5: off-state readback is recorded
+PASS: Slot 6: exact native start call activates the mocked buff
+PASS: Slot 6: long hold does not restart or refresh native buff
+PASS: Slot 6: release clears buff and frees VSB
+PASS: Slot 6: off-state readback is recorded
+PASS: Hit interruption clears the owned native buff
+PASS: Forced replacement clears Magic Evade before the next skill
+PASS: Pack reload/cancellation clears the native buff
+PASS: Companion shutdown clears the owned buff
+PASS: Shutdown requests the hold controller to finish
+PASS: A pre-existing native buff is preserved instead of being stolen or cleared
+PASS: Other skill UUIDs never enable this native buff
+PASS: Editor Test/no held skill input cannot leave native avoidance on
+PASS: Failed native activation is cleaned up: no_activation
+PASS: Failed native activation is cleaned up: start_throws
+PASS: Missing exact native signatures fail without invoking a substitute method
+PASS: Native expiry/stamina stop is not repeatedly re-enabled
+PASS: A transient native-clear error gets a bounded cleanup retry
+PASS: Character replacement causes no input reads or native writes through the previous player
+PASS: Another held button cannot take over the original hold
+PASS: Owned buff skips only the derived equipment scan and uses the real base method
+PASS: Learned-level reads remain unchanged for this and other characters
+PASS: Unowned buffs keep the original equipment expiry result
+PASS: A missing equipped native skill no longer expires the modeled buff
+PASS: Base duration/parameter expiry is preserved without reactivation
+PASS: After release, original equipment expiry applies again
+PASS: An already learned higher native level is preserved
+PASS: Original higher skill level remains after release
+PASS: Companion shutdown drops the equipment-check bypass
+PASS: Archer copy and shared metadata validate without warnings
+PASS: Archer copy with its own UUID holds the native buff
+PASS: Activation report identifies the copied skill
+PASS: Archer copy releases its buff on button release
+PASS: Marked copy survives a UUID, name and pack change
+PASS: Marked copy keeps normal cancellation cleanup
+PASS: Original UUID remains supported without metadata
+PASS: Unrelated skills require an exact boolean opt-in: false
+PASS: Unrelated skills require an exact boolean opt-in: true
+PASS: Unrelated skills require an exact boolean opt-in: 1
+PASS: Real VSB Duplicate and defaults preserve opt-in for future copies
+PASS: Duplicate metadata is independent of its source
+Completed 67 assertions. Native method execution and real automatic avoidance still require an in-game test.

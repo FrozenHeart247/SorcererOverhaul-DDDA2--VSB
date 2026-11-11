@@ -1,0 +1,5 @@
+# Local crash evidence and process memory are not source files.
+initial/
+captures/
+*.dmp
+__pycache__/

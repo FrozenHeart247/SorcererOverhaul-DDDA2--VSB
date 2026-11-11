@@ -1,0 +1,152 @@
+{
+    "availability": {
+        "list_under": "Job06",
+        "mode": "all",
+        "unlock_by": "vanilla"
+    },
+    "id": "new_skill_5",
+    "kind": "custom",
+    "levels": {
+        "1": {
+            "dcp_cost": 0,
+            "unlock_rank": 1
+        },
+        "2": {
+            "dcp_cost": 0,
+            "patch": [
+                {
+                    "op": "set",
+                    "path": "/costs",
+                    "value": {
+                        "stamina": {
+                            "amount": 250.0
+                        }
+                    }
+                },
+                {
+                    "op": "set",
+                    "path": "/presentation/name/en",
+                    "value": "Elemental Orb"
+                },
+                {
+                    "op": "set",
+                    "path": "/timeline/@n3/enabled",
+                    "value": true
+                },
+                {
+                    "op": "remove",
+                    "path": "/timeline/@n4/element"
+                },
+                {
+                    "op": "remove",
+                    "path": "/timeline/@n4/element2"
+                },
+                {
+                    "op": "remove",
+                    "path": "/timeline/@n4/element2_share"
+                },
+                {
+                    "op": "set",
+                    "path": "/timeline/@n4/enabled",
+                    "value": true
+                },
+                {
+                    "op": "set",
+                    "path": "/timeline/@n4/shell",
+                    "value": "AppSystem/ch/ch227/001/UserData/ch227001DarkAreaShellParamData.user"
+                },
+                {
+                    "op": "set",
+                    "path": "/timeline/@n4/shell_id",
+                    "value": 1
+                }
+            ],
+            "unlock_rank": 3
+        }
+    },
+    "presentation": {
+        "icon": 7,
+        "name": {
+            "en": "Lightning Ball"
+        },
+        "sort_hint": 100
+    },
+    "schema_version": 1,
+    "timeline": [
+        {
+            "action": "Job06_PrepareMineVolt",
+            "air_layer": 0,
+            "alt_layer": 0,
+            "enabled": true,
+            "frame": 0,
+            "hold": false,
+            "id": "n2",
+            "layer": 1,
+            "mirror": false,
+            "speed": 1.0,
+            "type": "action"
+        },
+        {
+            "attack_rate": 1,
+            "cast": {
+                "aim_pitch": false,
+                "attach": false,
+                "face": "owner",
+                "follow": "none",
+                "follow_children": false,
+                "follow_rotation": true,
+                "joint": "Head_0",
+                "keep_aim": false,
+                "lock_target": "enemy",
+                "mode": "owner",
+                "offset": [
+                    0.0,
+                    -3.2100000381469727,
+                    0.0
+                ]
+            },
+            "cosmetic": false,
+            "element": "None",
+            "element2": "None",
+            "element2_share": 50,
+            "enabled": false,
+            "frame": 10,
+            "ground": "default",
+            "id": "n3",
+            "keep_alive": false,
+            "mute": false,
+            "scale": 1,
+            "shell": "AppSystem/ch/ch253/001/UserData/ch253001WarpDarkBulletSShellParamData.user",
+            "shell_id": 1,
+            "speed": 1,
+            "type": "shell"
+        },
+        {
+            "attack_rate": 1,
+            "cosmetic": false,
+            "element": "None",
+            "element2": "None",
+            "element2_share": 50,
+            "enabled": false,
+            "frame": 60,
+            "ground": "default",
+            "id": "n4",
+            "keep_alive": false,
+            "lifetime": 5.0,
+            "mute": false,
+            "scale": 1,
+            "shell": "AppSystem/Shell/UserData/HumanShellParamData_Job08.user",
+            "shell_id": 45,
+            "speed": 1,
+            "type": "shell"
+        },
+        {
+            "enabled": true,
+            "frame": 60,
+            "id": "n1",
+            "op": "end",
+            "type": "flow"
+        }
+    ],
+    "uuid": "a7b6261c-d143-4b8a-a270-ba457717e7c2"
+}

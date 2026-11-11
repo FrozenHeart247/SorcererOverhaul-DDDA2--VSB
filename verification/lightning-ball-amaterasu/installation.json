@@ -1,0 +1,23 @@
+{
+  "installed_utc": "2026-10-30T22:26:06.8452871Z",
+  "target": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_5.json",
+  "previous_sha256": "D8F3A67AC0FDA4406551747DE410CE796E84CEC433E5A197A92C406EFBFA5088",
+  "installed_sha256": "DCD75BC0AC931FEDFD55B47330C555198512175D4193B8F94B5225A116699597",
+  "changes": [
+    "/levels/2/patch: n4 shell -> HumanShellParamData_Job08.user",
+    "/levels/2/patch: n4 shell_id -> 45"
+  ],
+  "lifetime_preserved": 5,
+  "level1_preserved": true,
+  "lua_changes": true,
+  "runtime_reload": "confirmed: JSON Rescan; REFramework Reset scripts at 2026-10-30T22:31:09Z; skill reopened in editor",
+  "native_lifetime_test": "After fix: timed Amaterasu visible at 1.737 s, absent at 10.488 s without manual cleanup; exact five-second boundary covered by tracker checks",
+  "tracker": {
+    "target": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\autorun\\DragonCore\\game\\shells.lua",
+    "previous_sha256": "36B381B954E56E22AA83621138E3EA9C95E074F353DF96FDA10CF73BBB39ED46",
+    "checks_passed": 13,
+    "installed_sha256": "706D6A2453CF146D539DE450EBE2AF32B899F5126BBABE63ADB96C55FA5B8530"
+  },
+  "level2_editor_cast": "completed; manual gameplay input not separately tested",
+  "verified_utc": "2026-10-30T22:35:59.4745860Z"
+}

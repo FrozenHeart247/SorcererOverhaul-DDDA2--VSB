@@ -1,0 +1,35 @@
+{
+  "version": 5,
+  "files": [
+    {
+      "source": "E:\\Downloads\\Mods\\DDDA2\\CustomClassAndSkills\\SorcererOverhaul(DDDA2)-VSB\\prepared\\magic-evade-shared\\reframework\\autorun\\FH_MagicEvade.lua",
+      "target": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\autorun\\FH_MagicEvade.lua",
+      "sha256": "DD3B5F2D12C80FA4547F1F68A5D39CE3AF4C3E0DE7EBEEF4A20508105CBE3F80",
+      "previous_sha256": "5D67F53B288F7A3834FDF020A23A1E4553BB6F3AEE8747ADAED7F56FB1628A05"
+    },
+    {
+      "source": "E:\\Downloads\\Mods\\DDDA2\\CustomClassAndSkills\\SorcererOverhaul(DDDA2)-VSB\\prepared\\magic-evade-shared\\reframework\\autorun\\FH_MagicEvade\\bridge.lua",
+      "target": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\autorun\\FH_MagicEvade\\bridge.lua",
+      "sha256": "9393137D5E79FCEEC2A50172E43960E8060BD5DB44CD2E80AD5BDB89273439BE",
+      "previous_sha256": "2C71BB478DF290DA5E1696B064D9888A3A3153389981C890A79F900011B2614F"
+    },
+    {
+      "source": "E:\\Downloads\\Mods\\DDDA2\\CustomClassAndSkills\\SorcererOverhaul(DDDA2)-VSB\\prepared\\magic-evade-shared\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_7.json",
+      "target": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_7.json",
+      "sha256": "E504FCDAB65B90DB6F23E357F713D7E59509C5DE90026497AF4D8190D5E3AEAB",
+      "previous_sha256": "619670CEE24A838C28CF275A4AE47A57647B2FDC5FA279F28BD12136CFFCC856"
+    },
+    {
+      "source": "E:\\Downloads\\Mods\\DDDA2\\CustomClassAndSkills\\SorcererOverhaul(DDDA2)-VSB\\prepared\\magic-evade-shared\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_7_copy.json",
+      "target": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\reframework\\data\\VSB\\packs\\fh_sorc\\skills\\new_skill_7_copy.json",
+      "sha256": "E7BC34EAF3C43ECFBF08C4EF5A6FFF7A9FE85C730D190A5075C1DA9009C1806E",
+      "previous_sha256": "4F65AB31322F936C821D9F109D93EF463D307042F3ED1F54A93DD6C7A6C4C916"
+    }
+  ],
+  "sdk_mocked_assertions": 67,
+  "installed_utc": "2026-10-29T08:54:43.4229427Z",
+  "native_adapter_changed": false,
+  "runtime_reload": "confirmed: REFramework Reset scripts; companion version 5 loaded",
+  "runtime_loaded_utc": "2026-10-29T08:56:33Z",
+  "archer_gameplay_test": "pending user hold/attack/release test; no cast performed during installation"
+}

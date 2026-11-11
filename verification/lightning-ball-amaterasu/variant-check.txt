@@ -1,0 +1,5 @@
+Before L2: AppSystem/ch/ch227/001/UserData/ch227001DarkAreaShellParamData.user #1
+Level 1: schema and patches valid, enabled=false
+After L2: AppSystem/Shell/UserData/HumanShellParamData_Job08.user #45, UseLifeTime=true, LifeTime=5
+Ordinary Test strips lifetime by design. Test with node settings preserves it.
+Level 2: schema and patches valid, enabled=true

@@ -1,0 +1,37 @@
+{
+  "configured_utc": "2026-10-29T13:26:38.0157006Z",
+  "method": "REFramework overlay checkboxes; configuration saved on closing overlay",
+  "target": "F:\\SteamLibrary\\steamapps\\common\\Dragons Dogma 2\\re2_fw_config.txt",
+  "previous_sha256": "314D4B7B42B90DE3ABDA50E36968BF817790632BB9CB8322A3750D78F72110BA",
+  "configured_sha256": "DC20DC2B109C02B856D4434BD7C203EB0A3667D9CF4A826B053419506AC02722",
+  "changed_keys": [
+    "ScriptRunner_LogToDisk",
+    "LooseFileLoader_LogLooseFiles",
+    "LooseFileLoader_LogAccessedFiles"
+  ],
+  "observed_ui_checked": true,
+  "saved_flags_verified": true,
+  "resource_log_files_have_headers": true,
+  "reproduction_test": "pending user menu comparison with and without suspect armor",
+  "source_fault": {
+    "time_utc": "2026-10-29T13:13:56Z",
+    "module": "DD2.exe",
+    "operation": "read",
+    "exception": "0xc0000005",
+    "offset": "0x562f6c9"
+  },
+  "suspect": {
+    "item_id": 31751,
+    "name": "Arbor Warden's Jerkin",
+    "style_no": 2155,
+    "confirmed": false
+  },
+  "observed_lua_error": {
+    "message": "attempt to concatenate a nil value (field '?')",
+    "relation_to_crash": "unknown",
+    "line": 216,
+    "observed_in": "ScriptRunner overlay during current launch",
+    "callback_line": 194,
+    "file": "reframework/autorun/MeshModEnabler.lua"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "events": [
+        {
+            "at": "2026-10-29T08:56:33Z",
+            "awaiting_cast": true,
+            "event": "loaded"
+        }
+    ],
+    "last": {
+        "at": "2026-10-29T08:56:33Z",
+        "awaiting_cast": true,
+        "event": "loaded"
+    },
+    "variant": "shared opt-in native buff with scoped equipment-expiry bypass",
+    "version": 5
+}
